@@ -1,0 +1,319 @@
+{
+  "semaglutide": {
+    "baseline": [
+      { "panel": "Metabolic", "tests": ["HbA1c", "fasting glucose", "comprehensive metabolic panel (CMP)"], "rationale": "Establish glycemic and renal/hepatic baseline." },
+      { "panel": "Lipids", "tests": ["lipid panel"], "rationale": "Track metabolic improvement." },
+      { "panel": "Pancreatic/thyroid screen", "tests": ["lipase (if symptomatic)", "TSH"], "rationale": "Screen pancreatitis risk and thyroid status." },
+      { "panel": "Reproductive", "tests": ["pregnancy test (if applicable)"], "rationale": "Contraindicated in pregnancy." }
+    ],
+    "monitoring": [
+      { "interval": "Every 3 months initially", "tests": ["HbA1c", "weight", "renal function (CMP)"], "action": "Assess response and renal status (GI losses)." },
+      { "interval": "As clinically indicated", "tests": ["lipase if abdominal pain"], "action": "Rule out pancreatitis." }
+    ]
+  },
+  "tirzepatide": {
+    "baseline": [
+      { "panel": "Metabolic", "tests": ["HbA1c", "fasting glucose", "CMP"], "rationale": "Glycemic and organ baseline." },
+      { "panel": "Lipids", "tests": ["lipid panel"], "rationale": "Metabolic tracking." },
+      { "panel": "Reproductive", "tests": ["pregnancy test (if applicable)"], "rationale": "Avoid in pregnancy; OCP efficacy caution." }
+    ],
+    "monitoring": [
+      { "interval": "Every 3 months initially", "tests": ["HbA1c", "weight", "renal function"], "action": "Assess response and hydration/renal status." },
+      { "interval": "As indicated", "tests": ["lipase if abdominal pain"], "action": "Evaluate pancreatitis." }
+    ]
+  },
+  "liraglutide": {
+    "baseline": [
+      { "panel": "Metabolic", "tests": ["HbA1c", "fasting glucose", "CMP"], "rationale": "Baseline glycemic/organ status." },
+      { "panel": "Lipids", "tests": ["lipid panel"], "rationale": "Tracking." }
+    ],
+    "monitoring": [
+      { "interval": "Every 3 months", "tests": ["HbA1c", "weight", "renal function"], "action": "Assess response." }
+    ]
+  },
+  "naltrexone-bupropion": {
+    "baseline": [
+      { "panel": "Vitals", "tests": ["blood pressure", "heart rate"], "rationale": "Bupropion can raise BP/HR." },
+      { "panel": "Hepatic/renal", "tests": ["CMP (liver and renal function)"], "rationale": "Dose adjustment in impairment." },
+      { "panel": "Mental health", "tests": ["depression/suicidality screen (PHQ-9)"], "rationale": "Antidepressant boxed warning." }
+    ],
+    "monitoring": [
+      { "interval": "Weeks 4, 12, then periodically", "tests": ["blood pressure", "heart rate", "weight", "mood screen"], "action": "Monitor BP/HR and neuropsychiatric status; assess ≥5% weight loss by week 12." }
+    ]
+  },
+  "bpc-157": {
+    "baseline": [
+      { "panel": "General", "tests": ["history (cancer screen)", "informed consent documentation"], "rationale": "Avoid in active malignancy; investigational status." }
+    ],
+    "monitoring": [
+      { "interval": "Per cycle (4–8 weeks)", "tests": ["clinical response", "tolerability review"], "action": "Reassess need; defined cycles." }
+    ]
+  },
+  "sermorelin": {
+    "baseline": [
+      { "panel": "GH axis", "tests": ["IGF-1"], "rationale": "Baseline before secretagogue therapy." },
+      { "panel": "Metabolic", "tests": ["fasting glucose", "HbA1c"], "rationale": "GH affects glucose." },
+      { "panel": "Thyroid", "tests": ["TSH, free T4"], "rationale": "Hypothyroidism blunts response." },
+      { "panel": "Screening", "tests": ["age-appropriate cancer screening"], "rationale": "Avoid with active malignancy." }
+    ],
+    "monitoring": [
+      { "interval": "Every 3 months", "tests": ["IGF-1", "fasting glucose"], "action": "Keep IGF-1 in age-appropriate upper-normal range; monitor glucose." }
+    ]
+  },
+  "cjc-1295-ipamorelin": {
+    "baseline": [
+      { "panel": "GH axis", "tests": ["IGF-1"], "rationale": "Baseline." },
+      { "panel": "Metabolic", "tests": ["fasting glucose", "HbA1c"], "rationale": "GH can raise glucose." },
+      { "panel": "Screening", "tests": ["age-appropriate cancer screening"], "rationale": "Avoid active malignancy." }
+    ],
+    "monitoring": [
+      { "interval": "Every 3 months", "tests": ["IGF-1", "fasting glucose"], "action": "Avoid supraphysiologic IGF-1; monitor glucose." }
+    ]
+  },
+  "ipamorelin": {
+    "baseline": [
+      { "panel": "GH axis", "tests": ["IGF-1"], "rationale": "Baseline." }
+    ],
+    "monitoring": [
+      { "interval": "Every 3 months", "tests": ["IGF-1"], "action": "Keep in age-appropriate range." }
+    ]
+  },
+  "tesamorelin": {
+    "baseline": [
+      { "panel": "GH axis", "tests": ["IGF-1"], "rationale": "Baseline; avoid supraphysiologic exposure." },
+      { "panel": "Metabolic", "tests": ["fasting glucose", "HbA1c"], "rationale": "Can worsen glucose." },
+      { "panel": "Screening", "tests": ["malignancy screen"], "rationale": "Contraindicated in active malignancy." }
+    ],
+    "monitoring": [
+      { "interval": "At 3 and 6 months", "tests": ["IGF-1", "fasting glucose", "visceral fat / waist"], "action": "Assess VAT response; discontinue if no benefit." }
+    ]
+  },
+  "thymosin-beta-4": {
+    "baseline": [
+      { "panel": "General", "tests": ["cancer screen", "informed consent"], "rationale": "Investigational; avoid active malignancy." }
+    ],
+    "monitoring": [
+      { "interval": "Per cycle", "tests": ["clinical response"], "action": "Reassess." }
+    ]
+  },
+  "testosterone-cypionate": {
+    "baseline": [
+      { "panel": "Androgen", "tests": ["total testosterone (two AM levels)", "free testosterone", "SHBG", "estradiol (sensitive assay)"], "rationale": "Confirm hypogonadism and baseline estradiol." },
+      { "panel": "Hematology", "tests": ["CBC (hematocrit/hemoglobin)"], "rationale": "Erythrocytosis risk." },
+      { "panel": "Prostate", "tests": ["PSA", "digital rectal exam (per age/guidelines)"], "rationale": "Prostate safety." },
+      { "panel": "Metabolic/lipids", "tests": ["CMP", "lipid panel"], "rationale": "General baseline." },
+      { "panel": "Pituitary (as indicated)", "tests": ["LH, FSH, prolactin"], "rationale": "Distinguish primary vs secondary; rule out prolactinoma." }
+    ],
+    "monitoring": [
+      { "interval": "At 3 and 6 months, then annually", "tests": ["total testosterone (trough)", "estradiol", "hematocrit", "PSA"], "action": "Target mid-normal T; hold/adjust if HCT >54% or PSA rises significantly." }
+    ]
+  },
+  "testosterone-cream": {
+    "baseline": [
+      { "panel": "Androgen", "tests": ["total/free testosterone", "estradiol", "SHBG"], "rationale": "Baseline." },
+      { "panel": "Hematology", "tests": ["CBC"], "rationale": "Erythrocytosis." },
+      { "panel": "Prostate (men)", "tests": ["PSA"], "rationale": "Prostate safety." }
+    ],
+    "monitoring": [
+      { "interval": "2–4 weeks after start, then periodically", "tests": ["testosterone level", "hematocrit", "PSA (men)"], "action": "Adjust dose to target; monitor for transfer/androgenic effects." }
+    ]
+  },
+  "estradiol": {
+    "baseline": [
+      { "panel": "Hormone", "tests": ["estradiol", "FSH (if confirming menopause)"], "rationale": "Baseline status." },
+      { "panel": "Breast/pelvic", "tests": ["mammogram (age-appropriate)", "clinical breast exam", "pelvic exam"], "rationale": "Estrogen-sensitive cancer screening." },
+      { "panel": "Metabolic", "tests": ["lipid panel", "fasting glucose"], "rationale": "Cardiometabolic baseline." },
+      { "panel": "Bleeding workup", "tests": ["endometrial evaluation if abnormal bleeding"], "rationale": "Rule out pathology before estrogen." }
+    ],
+    "monitoring": [
+      { "interval": "At 3 months, then annually", "tests": ["symptom review", "BP", "estradiol (if titrating)", "annual mammogram"], "action": "Use lowest effective dose; ensure progesterone if uterus intact; evaluate any bleeding." }
+    ]
+  },
+  "progesterone": {
+    "baseline": [
+      { "panel": "Hormone", "tests": ["progesterone (context-dependent)"], "rationale": "Baseline." },
+      { "panel": "Hepatic", "tests": ["liver function (if indicated)"], "rationale": "Hepatic metabolism." }
+    ],
+    "monitoring": [
+      { "interval": "Annually / symptom-based", "tests": ["symptom and bleeding review"], "action": "Confirm endometrial protection; evaluate breakthrough bleeding." }
+    ]
+  },
+  "dhea": {
+    "baseline": [
+      { "panel": "Adrenal/sex steroids", "tests": ["DHEA-S", "total testosterone", "estradiol"], "rationale": "Baseline and downstream conversion." },
+      { "panel": "Screening", "tests": ["hormone-sensitive cancer history review"], "rationale": "Contraindicated in hormone-sensitive cancer." }
+    ],
+    "monitoring": [
+      { "interval": "6–8 weeks, then periodically", "tests": ["DHEA-S", "estradiol", "testosterone"], "action": "Target mid-normal DHEA-S; watch androgenic effects in women." }
+    ]
+  },
+  "anastrozole": {
+    "baseline": [
+      { "panel": "Hormone", "tests": ["estradiol (sensitive assay)", "total testosterone"], "rationale": "Only use if estradiol confirmed elevated and symptomatic." },
+      { "panel": "Bone", "tests": ["bone density (DXA) if risk factors", "vitamin D"], "rationale": "AI lowers estrogen → bone loss risk." }
+    ],
+    "monitoring": [
+      { "interval": "2–4 weeks after start/dose change", "tests": ["estradiol", "lipids"], "action": "Target mid-normal estradiol — do not over-suppress; monitor lipids/bone." }
+    ]
+  },
+  "pregnenolone": {
+    "baseline": [
+      { "panel": "Hormone", "tests": ["downstream hormone panel as indicated"], "rationale": "Baseline in comprehensive regimens." }
+    ],
+    "monitoring": [
+      { "interval": "Periodically", "tests": ["symptom review", "downstream hormones"], "action": "Adjust to response." }
+    ]
+  },
+  "hcg": {
+    "baseline": [
+      { "panel": "Androgen", "tests": ["total testosterone", "estradiol", "LH/FSH"], "rationale": "Baseline gonadal axis." },
+      { "panel": "Fertility (if relevant)", "tests": ["semen analysis"], "rationale": "Fertility tracking." }
+    ],
+    "monitoring": [
+      { "interval": "Every 2–3 months", "tests": ["testosterone", "estradiol", "testicular exam"], "action": "Assess response; monitor estradiol (hCG raises it)." }
+    ]
+  },
+  "nad-plus": {
+    "baseline": [
+      { "panel": "General", "tests": ["CMP", "history (malignancy screen)"], "rationale": "General safety; caution in active cancer." }
+    ],
+    "monitoring": [
+      { "interval": "As clinically indicated", "tests": ["tolerability/infusion reaction review"], "action": "Adjust infusion rate for tolerability." }
+    ]
+  },
+  "metformin": {
+    "baseline": [
+      { "panel": "Renal", "tests": ["eGFR / creatinine (CMP)"], "rationale": "Contraindicated if eGFR <30; caution 30–45." },
+      { "panel": "Metabolic", "tests": ["HbA1c", "fasting glucose"], "rationale": "Glycemic baseline." },
+      { "panel": "Nutrient", "tests": ["vitamin B12"], "rationale": "Long-term metformin lowers B12." },
+      { "panel": "Hepatic", "tests": ["liver function (CMP)"], "rationale": "Lactic acidosis caution in hepatic impairment." }
+    ],
+    "monitoring": [
+      { "interval": "At least annually", "tests": ["eGFR", "HbA1c", "vitamin B12 (periodically)"], "action": "Adjust/stop if renal decline; supplement B12 if low." }
+    ]
+  },
+  "rapamycin": {
+    "baseline": [
+      { "panel": "Hematology", "tests": ["CBC with differential"], "rationale": "Cytopenias possible." },
+      { "panel": "Metabolic/lipids", "tests": ["fasting lipid panel", "fasting glucose / HbA1c", "CMP"], "rationale": "mTOR inhibition raises lipids/glucose; hepatic/renal baseline." },
+      { "panel": "Infection screen", "tests": ["clinical infection assessment"], "rationale": "Avoid during active infection." }
+    ],
+    "monitoring": [
+      { "interval": "At 1 month, then every 3–6 months", "tests": ["CBC", "lipid panel", "fasting glucose / HbA1c", "CMP"], "action": "Treat lipid/glucose changes; hold for infection, surgery, mouth ulcers, cytopenias. Sirolimus trough levels optional for intermittent low-dose use." }
+    ]
+  },
+  "berberine": {
+    "baseline": [
+      { "panel": "Metabolic", "tests": ["fasting glucose", "HbA1c", "lipid panel"], "rationale": "Baseline metabolic." },
+      { "panel": "Hepatic", "tests": ["liver function"], "rationale": "Hepatic metabolism / interactions." }
+    ],
+    "monitoring": [
+      { "interval": "Every 3 months", "tests": ["fasting glucose", "HbA1c", "lipids"], "action": "Assess response; watch hypoglycemia with other agents." }
+    ]
+  },
+  "resveratrol": {
+    "baseline": [
+      { "panel": "General", "tests": ["lipid panel (optional)"], "rationale": "Track metabolic effect." }
+    ],
+    "monitoring": [
+      { "interval": "Periodically", "tests": ["clinical review"], "action": "Assess tolerability; bleeding caution with anticoagulants." }
+    ]
+  },
+  "nmn": {
+    "baseline": [
+      { "panel": "General", "tests": ["history (malignancy screen, optional)"], "rationale": "Caution in active cancer." }
+    ],
+    "monitoring": [
+      { "interval": "Periodically", "tests": ["clinical review"], "action": "Assess tolerability." }
+    ]
+  },
+  "pt-141": {
+    "baseline": [
+      { "panel": "Cardiovascular", "tests": ["blood pressure", "cardiovascular history"], "rationale": "Transient BP rise; avoid in uncontrolled HTN/CVD." }
+    ],
+    "monitoring": [
+      { "interval": "As needed", "tests": ["blood pressure (in at-risk patients)"], "action": "Monitor BP; limit dosing frequency." }
+    ]
+  },
+  "oxytocin": {
+    "baseline": [
+      { "panel": "General", "tests": ["pregnancy status (if applicable)"], "rationale": "Avoid in pregnancy." }
+    ],
+    "monitoring": [
+      { "interval": "As needed", "tests": ["clinical review"], "action": "Assess response/tolerability." }
+    ]
+  },
+  "tadalafil": {
+    "baseline": [
+      { "panel": "Cardiovascular", "tests": ["cardiovascular history", "blood pressure", "nitrate/alpha-blocker medication review"], "rationale": "Rule out nitrate use and assess cardiac fitness for sexual activity." }
+    ],
+    "monitoring": [
+      { "interval": "As needed", "tests": ["response/side-effect review"], "action": "Adjust dose; counsel on priapism/nitrate avoidance." }
+    ]
+  },
+  "sildenafil": {
+    "baseline": [
+      { "panel": "Cardiovascular", "tests": ["cardiovascular history", "blood pressure", "nitrate/alpha-blocker review"], "rationale": "Exclude nitrate use; assess cardiac fitness." }
+    ],
+    "monitoring": [
+      { "interval": "As needed", "tests": ["response/side-effect review"], "action": "Adjust dose; counsel on priapism/vision changes." }
+    ]
+  },
+  "thymosin-alpha-1": {
+    "baseline": [
+      { "panel": "Immune", "tests": ["CBC with differential", "autoimmune history review"], "rationale": "Immune-modulating; caution in autoimmunity/transplant." }
+    ],
+    "monitoring": [
+      { "interval": "Per cycle", "tests": ["clinical response", "CBC"], "action": "Assess immune response/tolerability." }
+    ]
+  },
+  "glutathione": {
+    "baseline": [
+      { "panel": "General", "tests": ["asthma/sulfite-sensitivity screen"], "rationale": "Avoid nebulized form in asthma; caution with sulfite sensitivity." }
+    ],
+    "monitoring": [
+      { "interval": "As needed", "tests": ["tolerability review"], "action": "Slow IV push; assess response." }
+    ]
+  },
+  "low-dose-naltrexone": {
+    "baseline": [
+      { "panel": "General", "tests": ["confirm opioid-free status", "liver function (if hepatic concern)"], "rationale": "Must be opioid-free; dose-dependent hepatic caution." }
+    ],
+    "monitoring": [
+      { "interval": "At 6–8 weeks, then periodically", "tests": ["symptom/response review", "LFTs if indicated"], "action": "Titrate to effect; manage early sleep disturbance." }
+    ]
+  },
+  "finasteride": {
+    "baseline": [
+      { "panel": "Prostate", "tests": ["baseline PSA (men, if age-appropriate)"], "rationale": "Finasteride halves PSA — establish baseline." },
+      { "panel": "Mental health", "tests": ["mood/depression review"], "rationale": "Possible mood effects." }
+    ],
+    "monitoring": [
+      { "interval": "At 3–6 months, then annually", "tests": ["hair response", "PSA (double the value)", "mood/sexual side-effect review"], "action": "Assess efficacy; counsel on side effects." }
+    ]
+  },
+  "oral-minoxidil": {
+    "baseline": [
+      { "panel": "Cardiovascular", "tests": ["blood pressure", "heart rate", "cardiac history"], "rationale": "Vasodilator — assess for CV risk, edema." }
+    ],
+    "monitoring": [
+      { "interval": "At 4–8 weeks, then periodically", "tests": ["blood pressure", "heart rate", "edema check", "hair response"], "action": "Monitor for tachycardia/edema/hypertrichosis." }
+    ]
+  },
+  "ghk-cu": {
+    "baseline": [
+      { "panel": "General", "tests": ["copper-disorder history (Wilson's disease)"], "rationale": "Contraindicated in copper metabolism disorders." }
+    ],
+    "monitoring": [
+      { "interval": "As needed", "tests": ["skin/clinical response"], "action": "Assess tolerability." }
+    ]
+  },
+  "tretinoin": {
+    "baseline": [
+      { "panel": "General", "tests": ["pregnancy status (if applicable)", "skin assessment"], "rationale": "Avoid in pregnancy; assess barrier/irritation risk." }
+    ],
+    "monitoring": [
+      { "interval": "At 8–12 weeks", "tests": ["skin tolerance and response review"], "action": "Adjust strength/frequency; reinforce SPF." }
+    ]
+  }
+}

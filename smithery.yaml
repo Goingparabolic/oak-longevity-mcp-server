@@ -1,0 +1,20 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required: []
+    properties:
+      longevityLicenseKey:
+        type: string
+        title: Oak Longevity license key
+        description: >-
+          Oak Longevity PREMIUM license key. Optional — the free tier
+          (medication catalog + basic details) works without it.
+  commandFunction: |
+    (config) => ({
+      command: 'npx',
+      args: ['-y', 'oak-longevity-mcp-server'],
+      env: config.longevityLicenseKey
+        ? { LONGEVITY_LICENSE_KEY: config.longevityLicenseKey }
+        : {}
+    })

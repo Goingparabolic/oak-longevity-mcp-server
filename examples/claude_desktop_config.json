@@ -1,0 +1,21 @@
+{
+  "//": "Add this to your Claude Desktop config at:",
+  "//mac": "~/Library/Application Support/Claude/claude_desktop_config.json",
+  "//win": "%APPDATA%\\Claude\\claude_desktop_config.json",
+  "mcpServers": {
+    "oak-longevity": {
+      "command": "node",
+      "args": ["/absolute/path/to/longevity-mcp-server/dist/index.js"],
+      "env": {
+        "LONGEVITY_LICENSE_KEY": "OAK-XXXX-XXXX-XXXX"
+      }
+    },
+    "oak-longevity-via-npx": {
+      "command": "npx",
+      "args": ["-y", "oak-longevity-mcp-server"],
+      "env": {
+        "LONGEVITY_LICENSE_KEY": "OAK-XXXX-XXXX-XXXX"
+      }
+    }
+  }
+}

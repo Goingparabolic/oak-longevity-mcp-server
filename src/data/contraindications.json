@@ -1,0 +1,439 @@
+{
+  "semaglutide": {
+    "boxedWarning": "Risk of thyroid C-cell tumors in rodents — contraindicated with personal/family history of medullary thyroid carcinoma (MTC) or MEN 2.",
+    "absolute": [
+      { "condition": "Medullary thyroid carcinoma (personal or family)", "match": ["medullary thyroid", "mtc", "thyroid cancer"], "note": "Boxed warning — do not prescribe." },
+      { "condition": "Multiple endocrine neoplasia type 2 (MEN 2)", "match": ["men 2", "men2", "multiple endocrine neoplasia"], "note": "Contraindicated." },
+      { "condition": "Type 1 diabetes / diabetic ketoacidosis", "match": ["type 1 diabetes", "t1dm", "diabetic ketoacidosis", "dka"], "note": "Not indicated; DKA risk." },
+      { "condition": "Prior serious hypersensitivity to semaglutide", "match": ["semaglutide allergy", "glp-1 allergy"], "note": "Contraindicated." }
+    ],
+    "relative": [
+      { "condition": "History of pancreatitis", "match": ["pancreatitis"], "note": "Discontinue if pancreatitis suspected; use caution." },
+      { "condition": "Gastroparesis / severe GI motility disorder", "match": ["gastroparesis", "gastric motility"], "note": "Delayed gastric emptying may worsen symptoms." },
+      { "condition": "History of cholelithiasis / gallbladder disease", "match": ["gallstones", "cholelithiasis", "gallbladder"], "note": "Rapid weight loss raises gallstone risk." },
+      { "condition": "Diabetic retinopathy", "match": ["retinopathy"], "note": "Monitor — rapid glucose improvement can transiently worsen retinopathy." },
+      { "condition": "Severe renal impairment", "match": ["kidney disease", "renal impairment", "ckd", "dialysis"], "note": "Dehydration from GI losses can worsen renal function — monitor." }
+    ],
+    "cautions": [
+      "Counsel on dehydration/AKI risk from nausea, vomiting, diarrhea.",
+      "May delay absorption of co-administered oral medications.",
+      "Hold or reduce concurrent insulin/sulfonylurea to avoid hypoglycemia."
+    ],
+    "pregnancy": "Avoid — discontinue ≥2 months before a planned pregnancy."
+  },
+  "tirzepatide": {
+    "boxedWarning": "Risk of thyroid C-cell tumors in rodents — contraindicated with personal/family history of MTC or MEN 2.",
+    "absolute": [
+      { "condition": "Medullary thyroid carcinoma (personal or family)", "match": ["medullary thyroid", "mtc", "thyroid cancer"], "note": "Boxed warning — do not prescribe." },
+      { "condition": "Multiple endocrine neoplasia type 2 (MEN 2)", "match": ["men 2", "men2", "multiple endocrine neoplasia"], "note": "Contraindicated." },
+      { "condition": "Type 1 diabetes / DKA", "match": ["type 1 diabetes", "t1dm", "diabetic ketoacidosis", "dka"], "note": "Not indicated." }
+    ],
+    "relative": [
+      { "condition": "History of pancreatitis", "match": ["pancreatitis"], "note": "Use caution; discontinue if suspected." },
+      { "condition": "Gastroparesis / severe GI motility disorder", "match": ["gastroparesis", "gastric motility"], "note": "May worsen." },
+      { "condition": "Gallbladder disease", "match": ["gallstones", "cholelithiasis", "gallbladder"], "note": "Monitor with rapid weight loss." },
+      { "condition": "Diabetic retinopathy", "match": ["retinopathy"], "note": "Monitor." }
+    ],
+    "cautions": [
+      "May reduce efficacy of oral contraceptives — advise barrier method or switch to non-oral for 4 weeks after initiation and each dose increase.",
+      "Dehydration/AKI risk from GI losses.",
+      "Reduce concurrent insulin/sulfonylurea to limit hypoglycemia."
+    ],
+    "pregnancy": "Avoid; discontinue before planned conception."
+  },
+  "liraglutide": {
+    "boxedWarning": "Risk of thyroid C-cell tumors — contraindicated with personal/family history of MTC or MEN 2.",
+    "absolute": [
+      { "condition": "Medullary thyroid carcinoma (personal or family)", "match": ["medullary thyroid", "mtc", "thyroid cancer"], "note": "Boxed warning." },
+      { "condition": "MEN 2", "match": ["men 2", "men2", "multiple endocrine neoplasia"], "note": "Contraindicated." },
+      { "condition": "Type 1 diabetes / DKA", "match": ["type 1 diabetes", "t1dm", "dka"], "note": "Not indicated." }
+    ],
+    "relative": [
+      { "condition": "History of pancreatitis", "match": ["pancreatitis"], "note": "Discontinue if suspected." },
+      { "condition": "Gallbladder disease", "match": ["gallstones", "gallbladder"], "note": "Monitor." },
+      { "condition": "Severe renal impairment", "match": ["renal impairment", "kidney disease", "dialysis"], "note": "Monitor volume status." }
+    ],
+    "cautions": ["Dehydration risk from GI side effects.", "Reduce insulin/sulfonylurea."],
+    "pregnancy": "Avoid."
+  },
+  "naltrexone-bupropion": {
+    "boxedWarning": "Antidepressant class — increased risk of suicidal thoughts/behaviors in young adults (bupropion component).",
+    "absolute": [
+      { "condition": "Seizure disorder", "match": ["seizure", "epilepsy"], "note": "Bupropion lowers seizure threshold — contraindicated." },
+      { "condition": "Eating disorder (bulimia/anorexia)", "match": ["bulimia", "anorexia", "eating disorder"], "note": "Elevated seizure risk — contraindicated." },
+      { "condition": "Chronic opioid use / opioid dependence", "match": ["opioid", "oxycodone", "hydrocodone", "morphine", "fentanyl", "methadone", "buprenorphine", "suboxone"], "note": "Naltrexone precipitates withdrawal — contraindicated." },
+      { "condition": "Uncontrolled hypertension", "match": ["uncontrolled hypertension", "uncontrolled blood pressure"], "note": "Contraindicated." },
+      { "condition": "MAO inhibitor use (within 14 days)", "match": ["maoi", "mao inhibitor", "phenelzine", "selegiline", "tranylcypromine", "linezolid"], "note": "Hypertensive crisis risk — contraindicated." },
+      { "condition": "Abrupt discontinuation of alcohol/benzodiazepines/barbiturates", "match": ["alcohol withdrawal", "benzodiazepine withdrawal"], "note": "Seizure risk — contraindicated." }
+    ],
+    "relative": [
+      { "condition": "History of depression / suicidality", "match": ["depression", "suicidal", "bipolar"], "note": "Monitor mood; boxed warning population." },
+      { "condition": "Hepatic impairment", "match": ["liver disease", "hepatic impairment", "cirrhosis"], "note": "Reduce dose / avoid." },
+      { "condition": "Renal impairment", "match": ["renal impairment", "kidney disease"], "note": "Reduce dose." }
+    ],
+    "cautions": ["Avoid high-fat meals (raises bupropion exposure/seizure risk).", "Monitor blood pressure and heart rate."],
+    "pregnancy": "Avoid (weight-loss therapy is not used in pregnancy)."
+  },
+  "bpc-157": {
+    "absolute": [
+      { "condition": "Active or recent malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma", "lymphoma", "leukemia"], "note": "Theoretical pro-angiogenic concern — avoid in active cancer." }
+    ],
+    "relative": [
+      { "condition": "History of cancer", "match": ["cancer history", "remission"], "note": "Individualize; document informed consent." }
+    ],
+    "cautions": [
+      "Investigational / not FDA-approved — document informed consent.",
+      "Limited human safety data; use defined cycles and reassess."
+    ],
+    "pregnancy": "Avoid — insufficient safety data."
+  },
+  "sermorelin": {
+    "absolute": [
+      { "condition": "Active malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma"], "note": "GH/IGF-1 axis stimulation — avoid in active cancer." }
+    ],
+    "relative": [
+      { "condition": "Proliferative diabetic retinopathy", "match": ["retinopathy"], "note": "GH may worsen — caution." },
+      { "condition": "Untreated hypothyroidism", "match": ["hypothyroid", "hypothyroidism"], "note": "Blunts response — optimize thyroid first." },
+      { "condition": "Active carpal tunnel / fluid retention", "match": ["carpal tunnel", "edema"], "note": "GH effects can aggravate." }
+    ],
+    "cautions": ["Monitor IGF-1 to avoid supraphysiologic levels.", "Avoid carbohydrate near dosing (blunts GH pulse)."],
+    "pregnancy": "Avoid."
+  },
+  "cjc-1295-ipamorelin": {
+    "absolute": [
+      { "condition": "Active malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma"], "note": "GH-axis stimulation — avoid in active cancer." }
+    ],
+    "relative": [
+      { "condition": "Proliferative diabetic retinopathy", "match": ["retinopathy"], "note": "Caution." },
+      { "condition": "Insulin resistance / diabetes", "match": ["diabetes", "insulin resistance"], "note": "GH can raise glucose — monitor." }
+    ],
+    "cautions": ["Monitor IGF-1 and fasting glucose.", "Keep IGF-1 in age-appropriate upper-normal range, not supraphysiologic."],
+    "pregnancy": "Avoid."
+  },
+  "ipamorelin": {
+    "absolute": [
+      { "condition": "Active malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma"], "note": "Avoid in active cancer." }
+    ],
+    "relative": [
+      { "condition": "Proliferative diabetic retinopathy", "match": ["retinopathy"], "note": "Caution." }
+    ],
+    "cautions": ["Monitor IGF-1."],
+    "pregnancy": "Avoid."
+  },
+  "tesamorelin": {
+    "absolute": [
+      { "condition": "Active malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma"], "note": "GH/IGF-1 stimulation — contraindicated in active malignancy." },
+      { "condition": "Disruption of hypothalamic-pituitary axis", "match": ["hypophysectomy", "hypopituitarism", "pituitary"], "note": "Contraindicated (hypophysectomy, hypopituitarism, pituitary tumor/surgery/radiation)." }
+    ],
+    "relative": [
+      { "condition": "Diabetes / glucose intolerance", "match": ["diabetes", "insulin resistance"], "note": "May raise glucose — monitor." },
+      { "condition": "Acute critical illness", "match": ["critical illness", "icu"], "note": "GH secretagogues contraindicated in acute critical illness." }
+    ],
+    "cautions": ["Monitor IGF-1 and glucose."],
+    "pregnancy": "Contraindicated."
+  },
+  "thymosin-beta-4": {
+    "absolute": [
+      { "condition": "Active or recent malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma"], "note": "Pro-angiogenic concern — avoid in active cancer." }
+    ],
+    "relative": [
+      { "condition": "History of cancer", "match": ["cancer history", "remission"], "note": "Individualize." }
+    ],
+    "cautions": ["Investigational / not FDA-approved — document informed consent."],
+    "pregnancy": "Avoid."
+  },
+  "testosterone-cypionate": {
+    "absolute": [
+      { "condition": "Prostate cancer (untreated)", "match": ["prostate cancer"], "note": "Androgen-sensitive — contraindicated." },
+      { "condition": "Male breast cancer", "match": ["breast cancer"], "note": "Contraindicated." },
+      { "condition": "Erythrocytosis / hematocrit >54%", "match": ["polycythemia", "erythrocytosis", "high hematocrit"], "note": "Worsens — contraindicated until corrected." }
+    ],
+    "relative": [
+      { "condition": "Severe untreated obstructive sleep apnea", "match": ["sleep apnea", "osa"], "note": "Can worsen — treat first." },
+      { "condition": "Uncontrolled / severe heart failure", "match": ["heart failure", "chf"], "note": "Fluid retention — caution." },
+      { "condition": "Desire for fertility", "match": ["fertility", "trying to conceive", "family planning"], "note": "Suppresses spermatogenesis — consider hCG/alternatives." },
+      { "condition": "Elevated PSA / BPH", "match": ["bph", "elevated psa", "prostate"], "note": "Evaluate prostate before and during therapy." },
+      { "condition": "History of VTE", "match": ["venous thromboembolism", "dvt", "pulmonary embolism", "vte", "blood clot"], "note": "Possible thrombotic risk — caution." }
+    ],
+    "cautions": ["Monitor hematocrit, PSA, estradiol.", "Schedule III controlled substance — comply with prescribing rules."],
+    "pregnancy": "Contraindicated; avoid partner skin transfer."
+  },
+  "testosterone-cream": {
+    "absolute": [
+      { "condition": "Prostate cancer (untreated)", "match": ["prostate cancer"], "note": "Contraindicated." },
+      { "condition": "Male breast cancer", "match": ["breast cancer"], "note": "Contraindicated." },
+      { "condition": "Erythrocytosis / hematocrit >54%", "match": ["polycythemia", "erythrocytosis", "high hematocrit"], "note": "Contraindicated until corrected." }
+    ],
+    "relative": [
+      { "condition": "Household contact with pregnant women or young children", "match": ["pregnant partner", "young children", "children at home"], "note": "Secondary transfer risk — strict application-site hygiene." },
+      { "condition": "Obstructive sleep apnea", "match": ["sleep apnea", "osa"], "note": "Caution." },
+      { "condition": "Elevated PSA / BPH", "match": ["bph", "elevated psa", "prostate"], "note": "Monitor prostate." }
+    ],
+    "cautions": ["Cover application site; wash hands; avoid skin-to-skin transfer.", "Monitor hematocrit and PSA."],
+    "pregnancy": "Avoid exposure to pregnant household contacts."
+  },
+  "estradiol": {
+    "absolute": [
+      { "condition": "Estrogen-sensitive cancer (breast/endometrial)", "match": ["breast cancer", "endometrial cancer", "estrogen-sensitive"], "note": "Contraindicated, current or history." },
+      { "condition": "Unexplained vaginal bleeding", "match": ["vaginal bleeding", "abnormal uterine bleeding"], "note": "Evaluate before estrogen — contraindicated until diagnosed." },
+      { "condition": "Active or history of VTE/thromboembolism", "match": ["venous thromboembolism", "dvt", "pulmonary embolism", "vte", "blood clot", "thrombophilia"], "note": "Contraindicated (transdermal lower risk — still caution)." },
+      { "condition": "Active liver disease", "match": ["liver disease", "hepatic impairment", "cirrhosis", "hepatitis"], "note": "Contraindicated." },
+      { "condition": "Recent stroke or MI", "match": ["stroke", "myocardial infarction", "heart attack"], "note": "Contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Migraine with aura", "match": ["migraine with aura", "migraine"], "note": "Stroke risk — favor transdermal, caution." },
+      { "condition": "Hypertriglyceridemia", "match": ["high triglycerides", "hypertriglyceridemia"], "note": "Oral worsens — use transdermal." },
+      { "condition": "Gallbladder disease", "match": ["gallbladder", "gallstones"], "note": "Caution." },
+      { "condition": "Intact uterus without progesterone", "match": ["intact uterus", "has uterus"], "note": "Unopposed estrogen → endometrial hyperplasia. MUST add progesterone." }
+    ],
+    "cautions": ["Use transdermal to minimize VTE/stroke risk.", "Add progesterone if uterus is intact.", "Initiate within 10 years of menopause / before age 60 for best benefit-risk."],
+    "pregnancy": "Contraindicated."
+  },
+  "progesterone": {
+    "absolute": [
+      { "condition": "Active liver disease", "match": ["liver disease", "hepatic impairment", "cirrhosis"], "note": "Contraindicated." },
+      { "condition": "Active thromboembolic disorder", "match": ["venous thromboembolism", "dvt", "pulmonary embolism", "vte", "blood clot"], "note": "Caution/contraindicated in active VTE." }
+    ],
+    "relative": [
+      { "condition": "Known/suspected breast cancer", "match": ["breast cancer"], "note": "Individualize — micronized progesterone preferred over synthetic progestins." },
+      { "condition": "Peanut allergy", "match": ["peanut allergy"], "note": "Some oral capsules contain peanut oil — verify formulation." },
+      { "condition": "Severe depression", "match": ["depression"], "note": "May affect mood — monitor." }
+    ],
+    "cautions": ["Bedtime dosing for sedation benefit.", "Oral (not transdermal cream) required for endometrial protection."],
+    "pregnancy": "Used in some pregnancy protocols — only under specialist direction."
+  },
+  "dhea": {
+    "absolute": [
+      { "condition": "Hormone-sensitive cancer (breast/prostate/ovarian/uterine)", "match": ["breast cancer", "prostate cancer", "ovarian cancer", "uterine cancer", "hormone-sensitive"], "note": "Converts to sex steroids — avoid." }
+    ],
+    "relative": [
+      { "condition": "PCOS / androgen excess (women)", "match": ["pcos", "hirsutism", "androgen excess"], "note": "May worsen androgenic symptoms." },
+      { "condition": "History of mood disorder / mania", "match": ["bipolar", "mania"], "note": "Caution." },
+      { "condition": "Liver disease", "match": ["liver disease", "hepatic impairment"], "note": "Metabolized hepatically — caution." }
+    ],
+    "cautions": ["Monitor DHEA-S and downstream estradiol/testosterone.", "Lower doses in women to limit acne/hirsutism."],
+    "pregnancy": "Avoid."
+  },
+  "anastrozole": {
+    "absolute": [
+      { "condition": "Pregnancy", "match": ["pregnant", "pregnancy"], "note": "Contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Osteoporosis / osteopenia / low bone density", "match": ["osteoporosis", "osteopenia", "low bone density"], "note": "Lowering estrogen worsens bone — avoid/caution." },
+      { "condition": "Normal or low estradiol", "match": ["low estradiol"], "note": "Do not use without confirmed elevated, symptomatic estradiol." },
+      { "condition": "Dyslipidemia", "match": ["high cholesterol", "dyslipidemia"], "note": "Estrogen suppression may worsen lipids." }
+    ],
+    "cautions": ["Avoid routine/prophylactic use in TRT.", "Do not crash estradiol — target mid-normal range."],
+    "pregnancy": "Contraindicated."
+  },
+  "pregnenolone": {
+    "absolute": [
+      { "condition": "Hormone-sensitive cancer", "match": ["breast cancer", "prostate cancer", "hormone-sensitive"], "note": "Downstream conversion — avoid." }
+    ],
+    "relative": [
+      { "condition": "Seizure disorder", "match": ["seizure", "epilepsy"], "note": "Neurosteroid activity — caution." }
+    ],
+    "cautions": ["Morning dosing (can be activating).", "Monitor downstream hormones."],
+    "pregnancy": "Avoid."
+  },
+  "hcg": {
+    "absolute": [
+      { "condition": "Androgen-dependent neoplasia (prostate/breast)", "match": ["prostate cancer", "breast cancer"], "note": "Stimulates testosterone — contraindicated." },
+      { "condition": "Precocious puberty", "match": ["precocious puberty"], "note": "Contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Thromboembolic disease", "match": ["venous thromboembolism", "dvt", "blood clot"], "note": "Caution." }
+    ],
+    "cautions": ["Monitor estradiol (hCG can raise it).", "Used to preserve fertility/testicular volume during TRT."],
+    "pregnancy": "Not for use in pregnancy."
+  },
+  "nad-plus": {
+    "absolute": [],
+    "relative": [
+      { "condition": "Active malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma"], "note": "NAD+ metabolism intersects tumor pathways — caution; individualize." }
+    ],
+    "cautions": ["Infuse SLOWLY — rapid IV causes flushing, nausea, chest/abdominal tightness.", "Slow or pause the infusion to abort reactions."],
+    "pregnancy": "Avoid — insufficient data."
+  },
+  "metformin": {
+    "absolute": [
+      { "condition": "Severe renal impairment (eGFR <30)", "match": ["egfr below 30", "severe kidney disease", "dialysis", "esrd"], "note": "Lactic acidosis risk — contraindicated." },
+      { "condition": "Acute metabolic acidosis / DKA", "match": ["metabolic acidosis", "diabetic ketoacidosis", "dka", "lactic acidosis"], "note": "Contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Moderate renal impairment (eGFR 30–45)", "match": ["egfr 30", "moderate kidney disease", "ckd stage 3"], "note": "Do not initiate; reduce dose if continued; monitor." },
+      { "condition": "Acute decompensated heart failure", "match": ["heart failure", "chf"], "note": "Hypoperfusion/lactic acidosis risk — caution." },
+      { "condition": "Significant hepatic impairment", "match": ["liver disease", "hepatic impairment", "cirrhosis"], "note": "Raises lactic acidosis risk — caution." },
+      { "condition": "Heavy alcohol use", "match": ["alcohol use disorder", "heavy alcohol", "alcoholism"], "note": "Lactic acidosis risk — caution." }
+    ],
+    "cautions": ["Hold for iodinated contrast and major surgery; verify eGFR before resuming.", "Monitor B12 on long-term use."],
+    "pregnancy": "Often continued/used in pregnancy/PCOS under supervision — individualize."
+  },
+  "rapamycin": {
+    "absolute": [
+      { "condition": "Active serious infection", "match": ["active infection", "sepsis", "serious infection"], "note": "Immunosuppressive — hold/avoid." }
+    ],
+    "relative": [
+      { "condition": "Significant immunocompromise", "match": ["immunocompromised", "immunodeficiency", "hiv"], "note": "Caution — additive immunosuppression." },
+      { "condition": "Poor wound healing / upcoming surgery", "match": ["upcoming surgery", "wound healing", "recent surgery"], "note": "Impairs healing — hold periprocedurally." },
+      { "condition": "Uncontrolled hyperlipidemia", "match": ["high cholesterol", "hyperlipidemia", "high triglycerides"], "note": "mTOR inhibition raises lipids — monitor/treat." },
+      { "condition": "Diabetes / hyperglycemia", "match": ["diabetes", "hyperglycemia", "insulin resistance"], "note": "Can worsen glucose — monitor." },
+      { "condition": "Stomatitis-prone / mouth ulcers", "match": ["mouth ulcers", "stomatitis"], "note": "Common dose-related side effect." }
+    ],
+    "cautions": ["Hold around live vaccines, infections, and surgery.", "Strong CYP3A4/P-gp substrate — major interaction potential.", "Monitor lipids, glucose, CBC."],
+    "pregnancy": "Avoid — effective contraception required."
+  },
+  "berberine": {
+    "absolute": [
+      { "condition": "Pregnancy / breastfeeding", "match": ["pregnant", "pregnancy", "breastfeeding"], "note": "Crosses placenta; kernicterus risk in neonates — avoid." }
+    ],
+    "relative": [
+      { "condition": "Concurrent glucose-lowering therapy", "match": ["insulin", "sulfonylurea", "diabetes medication"], "note": "Additive hypoglycemia — monitor." },
+      { "condition": "Jaundice / hyperbilirubinemia", "match": ["jaundice", "hyperbilirubinemia"], "note": "Displaces bilirubin — caution." }
+    ],
+    "cautions": ["Potent CYP3A4 and P-gp inhibitor — screen for interactions (statins, cyclosporine, etc.).", "Divide doses with meals."],
+    "pregnancy": "Contraindicated."
+  },
+  "resveratrol": {
+    "absolute": [],
+    "relative": [
+      { "condition": "Anticoagulation / bleeding risk", "match": ["anticoagulant", "warfarin", "bleeding disorder", "blood thinner"], "note": "Mild antiplatelet effect — caution." },
+      { "condition": "Hormone-sensitive conditions", "match": ["breast cancer", "estrogen-sensitive"], "note": "Weak phytoestrogen activity — caution." }
+    ],
+    "cautions": ["Take with dietary fat for absorption.", "May inhibit CYP enzymes at high doses."],
+    "pregnancy": "Avoid."
+  },
+  "nmn": {
+    "absolute": [],
+    "relative": [
+      { "condition": "Active malignancy", "match": ["cancer", "malignancy", "tumor", "carcinoma"], "note": "NAD+ metabolism intersects tumor pathways — caution." }
+    ],
+    "cautions": ["Often combined with a methyl donor (TMG) on long-term use."],
+    "pregnancy": "Avoid — insufficient data."
+  },
+  "pt-141": {
+    "absolute": [
+      { "condition": "Uncontrolled hypertension", "match": ["uncontrolled hypertension", "uncontrolled blood pressure"], "note": "Transient BP rise — contraindicated until controlled." },
+      { "condition": "Known cardiovascular disease", "match": ["cardiovascular disease", "coronary artery disease", "heart disease"], "note": "Contraindicated — transient BP/HR effects." }
+    ],
+    "relative": [
+      { "condition": "Predisposition to hyperpigmentation", "match": ["hyperpigmentation", "melasma"], "note": "Melanocortin agonism can cause focal hyperpigmentation." },
+      { "condition": "Significant nausea sensitivity", "match": ["nausea"], "note": "Nausea is the most common side effect — start low." }
+    ],
+    "cautions": ["Do not exceed one dose per 24 hours / 8 per month.", "Monitor BP in at-risk patients."],
+    "pregnancy": "Avoid."
+  },
+  "oxytocin": {
+    "absolute": [
+      { "condition": "Pregnancy", "match": ["pregnant", "pregnancy"], "note": "Uterotonic — avoid wellness use in pregnancy." }
+    ],
+    "relative": [
+      { "condition": "Cardiovascular instability", "match": ["cardiovascular disease", "arrhythmia"], "note": "Caution at higher doses." },
+      { "condition": "Hyponatremia risk", "match": ["hyponatremia", "siadh"], "note": "Antidiuretic effect at high doses — caution." }
+    ],
+    "cautions": ["Compounded sublingual/nasal only — not IV for wellness use."],
+    "pregnancy": "Contraindicated for wellness use."
+  },
+  "tadalafil": {
+    "absolute": [
+      { "condition": "Concurrent nitrate use", "match": ["nitrate", "nitroglycerin", "isosorbide", "nitrates"], "note": "Severe hypotension — absolute contraindication." },
+      { "condition": "Concurrent riociguat (sGC stimulator)", "match": ["riociguat"], "note": "Severe hypotension — contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Recent MI / stroke / unstable angina", "match": ["myocardial infarction", "heart attack", "stroke", "unstable angina"], "note": "Avoid until cardiovascularly stable." },
+      { "condition": "Severe hypotension", "match": ["hypotension", "low blood pressure"], "note": "Caution." },
+      { "condition": "Alpha-blocker use", "match": ["alpha-blocker", "tamsulosin", "doxazosin"], "note": "Additive hypotension — stabilize alpha-blocker first." },
+      { "condition": "Severe hepatic/renal impairment", "match": ["liver disease", "renal impairment", "kidney disease"], "note": "Dose-limit." }
+    ],
+    "cautions": ["Reduce dose with potent CYP3A4 inhibitors.", "Counsel on priapism (seek care if >4h erection)."],
+    "pregnancy": "Not applicable (male ED); female PAH use is specialist-directed."
+  },
+  "sildenafil": {
+    "absolute": [
+      { "condition": "Concurrent nitrate use", "match": ["nitrate", "nitroglycerin", "isosorbide", "nitrates"], "note": "Severe hypotension — absolute contraindication." },
+      { "condition": "Concurrent riociguat", "match": ["riociguat"], "note": "Contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Recent MI / stroke / unstable angina", "match": ["myocardial infarction", "heart attack", "stroke", "unstable angina"], "note": "Avoid until stable." },
+      { "condition": "NAION (optic neuropathy) history", "match": ["naion", "optic neuropathy", "vision loss"], "note": "Risk of recurrent vision loss — caution." },
+      { "condition": "Alpha-blocker use", "match": ["alpha-blocker", "tamsulosin", "doxazosin"], "note": "Additive hypotension." },
+      { "condition": "Severe hepatic/renal impairment", "match": ["liver disease", "renal impairment"], "note": "Start 25 mg." }
+    ],
+    "cautions": ["Start 25 mg with CYP3A4 inhibitors, age >65, or renal/hepatic impairment.", "Counsel on priapism."],
+    "pregnancy": "Not applicable (male ED)."
+  },
+  "thymosin-alpha-1": {
+    "absolute": [
+      { "condition": "Organ transplant on immunosuppression", "match": ["organ transplant", "transplant", "immunosuppression"], "note": "Immune-activating — risk of rejection. Avoid." }
+    ],
+    "relative": [
+      { "condition": "Active autoimmune disease", "match": ["autoimmune", "lupus", "rheumatoid arthritis", "multiple sclerosis", "hashimoto"], "note": "May aggravate — individualize." }
+    ],
+    "cautions": ["Investigational in the US — document informed consent."],
+    "pregnancy": "Avoid."
+  },
+  "glutathione": {
+    "absolute": [],
+    "relative": [
+      { "condition": "Asthma (nebulized form)", "match": ["asthma", "reactive airway"], "note": "Nebulized glutathione can cause bronchospasm — avoid inhaled route." },
+      { "condition": "Sulfa/sulfite sensitivity", "match": ["sulfa allergy", "sulfite sensitivity"], "note": "Caution with IV formulations." }
+    ],
+    "cautions": ["IV push given slowly.", "Pair with vitamin C in many protocols."],
+    "pregnancy": "Avoid high-dose use — insufficient data."
+  },
+  "low-dose-naltrexone": {
+    "absolute": [
+      { "condition": "Current opioid therapy / opioid dependence", "match": ["opioid", "oxycodone", "hydrocodone", "morphine", "fentanyl", "methadone", "buprenorphine", "suboxone", "tramadol"], "note": "Precipitates withdrawal and blocks analgesia — contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Acute hepatitis / significant hepatic impairment", "match": ["acute hepatitis", "liver failure", "hepatic impairment"], "note": "Dose-dependent hepatotoxicity at high doses — caution at LDN doses." }
+    ],
+    "cautions": ["Patient must be opioid-free before starting.", "Vivid dreams/insomnia early — consider AM dosing."],
+    "pregnancy": "Individualize — limited data."
+  },
+  "finasteride": {
+    "absolute": [
+      { "condition": "Pregnancy / women of childbearing potential", "match": ["pregnant", "pregnancy", "childbearing"], "note": "Teratogenic — fetal genital malformation; women must not take or handle crushed/broken tablets." }
+    ],
+    "relative": [
+      { "condition": "History of depression", "match": ["depression"], "note": "Possible mood effects — counsel and monitor." },
+      { "condition": "Desire to fully preserve libido/sexual function", "match": ["sexual side effects", "low libido"], "note": "Counsel on sexual side-effect and post-finasteride syndrome risk." },
+      { "condition": "Planned PSA-based prostate screening", "match": ["psa", "prostate screening"], "note": "Lowers PSA ~50% — interpret accordingly." }
+    ],
+    "cautions": ["Effect reverses within months of stopping.", "Topical compounding reduces systemic exposure."],
+    "pregnancy": "Contraindicated — pregnancy category X exposure concern."
+  },
+  "oral-minoxidil": {
+    "absolute": [
+      { "condition": "Pheochromocytoma", "match": ["pheochromocytoma"], "note": "Contraindicated." },
+      { "condition": "Significant pericardial effusion / tamponade", "match": ["pericardial effusion", "tamponade"], "note": "Contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Significant cardiovascular disease / heart failure", "match": ["heart failure", "cardiovascular disease", "coronary artery disease"], "note": "Fluid retention, reflex tachycardia — caution; consider cardiology input." },
+      { "condition": "Uncontrolled tachyarrhythmia", "match": ["tachycardia", "arrhythmia", "afib"], "note": "May worsen — caution." },
+      { "condition": "Renal impairment / dialysis", "match": ["renal impairment", "dialysis", "kidney disease"], "note": "Fluid retention risk — caution." }
+    ],
+    "cautions": ["Counsel on hypertrichosis (facial/body hair) and edema.", "Consider baseline BP/HR; start low."],
+    "pregnancy": "Avoid."
+  },
+  "ghk-cu": {
+    "absolute": [
+      { "condition": "Wilson's disease / copper metabolism disorder", "match": ["wilson's disease", "wilsons disease", "copper overload"], "note": "Copper-containing — contraindicated." }
+    ],
+    "relative": [
+      { "condition": "Copper hypersensitivity", "match": ["copper allergy"], "note": "Avoid." }
+    ],
+    "cautions": ["Avoid layering topical GHK-Cu directly with high-dose vitamin C.", "Injectable use is off-label/investigational."],
+    "pregnancy": "Avoid injectable use — insufficient data."
+  },
+  "tretinoin": {
+    "absolute": [
+      { "condition": "Pregnancy / breastfeeding", "match": ["pregnant", "pregnancy", "breastfeeding"], "note": "Avoid retinoids in pregnancy." }
+    ],
+    "relative": [
+      { "condition": "Active eczema/rosacea or compromised skin barrier", "match": ["eczema", "rosacea", "dermatitis"], "note": "May irritate — introduce slowly or defer." }
+    ],
+    "cautions": ["Daily SPF mandatory (photosensitivity).", "Expect retinization (irritation/peeling) early — buffer and reduce frequency."],
+    "pregnancy": "Avoid."
+  }
+}

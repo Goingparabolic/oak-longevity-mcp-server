@@ -1,0 +1,142 @@
+[
+  {
+    "id": "weight-loss",
+    "name": "Weight Loss / Obesity",
+    "match": ["weight loss", "lose weight", "obesity", "overweight", "bmi", "appetite", "cravings", "satiety", "fat loss"],
+    "firstLine": ["semaglutide", "tirzepatide"],
+    "adjuncts": ["liraglutide", "naltrexone-bupropion", "metformin"],
+    "avoidIf": ["personal/family history of medullary thyroid carcinoma or MEN 2 (GLP-1/GIP agents)", "active pregnancy"],
+    "workup": ["BMI and weight history", "HbA1c, CMP, lipid panel", "thyroid (TSH)", "rule out MTC/MEN 2 history"],
+    "notes": "GLP-1 (semaglutide) or dual GIP/GLP-1 (tirzepatide) first-line; tirzepatide tends to yield greater loss. Add metformin for insulin resistance, or naltrexone/bupropion if cravings/mood predominate."
+  },
+  {
+    "id": "metabolic-insulin-resistance",
+    "name": "Type 2 Diabetes / Insulin Resistance / Metabolic Syndrome",
+    "match": ["diabetes", "prediabetes", "insulin resistance", "metabolic syndrome", "high blood sugar", "elevated a1c", "pcos", "high glucose"],
+    "firstLine": ["metformin"],
+    "adjuncts": ["semaglutide", "tirzepatide", "berberine"],
+    "avoidIf": ["eGFR <30 (metformin)", "active malignancy (NAD+ precursors caution)"],
+    "workup": ["HbA1c, fasting glucose, fasting insulin", "eGFR/CMP", "lipid panel", "vitamin B12 baseline"],
+    "notes": "Metformin first-line for insulin sensitivity (also longevity rationale). Add GLP-1/GIP agents if weight and glycemia both need addressing. Berberine is a botanical alternative — screen CYP3A4 interactions."
+  },
+  {
+    "id": "male-hypogonadism",
+    "name": "Low Testosterone / Male Hypogonadism",
+    "match": ["low testosterone", "low t", "hypogonadism", "low libido male", "erectile", "low energy", "fatigue man", "muscle loss", "low motivation", "trt"],
+    "firstLine": ["testosterone-cypionate", "testosterone-cream"],
+    "adjuncts": ["hcg", "anastrozole"],
+    "avoidIf": ["untreated prostate or breast cancer", "hematocrit >54%", "active desire for fertility (use hCG-sparing approach)"],
+    "workup": ["two AM total testosterone + free testosterone + SHBG", "estradiol (sensitive)", "CBC (hematocrit)", "PSA", "LH/FSH/prolactin"],
+    "notes": "Confirm biochemical hypogonadism on two morning levels before treating. Add hCG to preserve fertility/testicular volume. Reserve anastrozole only for confirmed symptomatic high estradiol — avoid routine use."
+  },
+  {
+    "id": "menopause-hrt",
+    "name": "Menopause / Perimenopause (Women)",
+    "match": ["menopause", "perimenopause", "hot flashes", "night sweats", "vaginal dryness", "hormone replacement", "hrt", "irregular periods", "mood swings menopause"],
+    "firstLine": ["estradiol", "progesterone"],
+    "adjuncts": ["testosterone-cream", "dhea"],
+    "avoidIf": ["estrogen-sensitive cancer", "history of VTE", "unexplained vaginal bleeding", "active liver disease"],
+    "workup": ["FSH/estradiol if confirming status", "mammogram + breast/pelvic exam", "lipids, glucose", "evaluate any abnormal bleeding"],
+    "notes": "Transdermal estradiol preferred (lower VTE/stroke risk). ALWAYS pair with progesterone if uterus is intact. Initiate within 10 years of menopause / before age 60 for best benefit-risk. Low-dose testosterone for persistent low libido."
+  },
+  {
+    "id": "female-libido",
+    "name": "Low Female Libido / HSDD",
+    "match": ["low libido female", "low sex drive", "hypoactive sexual desire", "hsdd", "low desire", "intimacy", "arousal"],
+    "firstLine": ["pt-141"],
+    "adjuncts": ["testosterone-cream", "oxytocin", "dhea"],
+    "avoidIf": ["uncontrolled hypertension or CVD (PT-141)", "pregnancy"],
+    "workup": ["rule out reversible causes (medications, mood, relationship)", "hormone panel (testosterone, estradiol, DHEA-S, thyroid)"],
+    "notes": "PT-141 (FDA-approved Vyleesi) for premenopausal HSDD. Low-dose transdermal testosterone supports desire (ISSWSH). Oxytocin and DHEA as adjuncts."
+  },
+  {
+    "id": "erectile-dysfunction",
+    "name": "Erectile Dysfunction (Men)",
+    "match": ["erectile dysfunction", "ed", "weak erection", "cannot maintain erection", "sexual performance", "impotence"],
+    "firstLine": ["tadalafil", "sildenafil"],
+    "adjuncts": ["pt-141"],
+    "avoidIf": ["nitrate use (absolute)", "riociguat use", "recent MI/stroke / unstable cardiovascular disease"],
+    "workup": ["cardiovascular history + medication review (nitrates, alpha-blockers)", "testosterone level (treat coexisting low T)"],
+    "notes": "PDE5 inhibitors first-line — daily low-dose tadalafil for spontaneity, on-demand sildenafil otherwise. PT-141 (central) for PDE5 non-responders. Always exclude nitrates."
+  },
+  {
+    "id": "longevity-healthspan",
+    "name": "Anti-Aging / Longevity / Healthspan",
+    "match": ["longevity", "anti-aging", "healthspan", "live longer", "slow aging", "biological age", "cellular aging", "healthy aging"],
+    "firstLine": ["metformin", "rapamycin"],
+    "adjuncts": ["nad-plus", "nmn", "resveratrol"],
+    "avoidIf": ["active infection or significant immunocompromise (rapamycin)", "eGFR <30 (metformin)", "active malignancy (NAD+ precursors caution)"],
+    "workup": ["comprehensive metabolic + lipid panel", "HbA1c, fasting insulin", "CBC", "consider IGF-1, hs-CRP, biological-age markers"],
+    "notes": "Evidence-informed but largely off-label. Intermittent low-dose rapamycin (mTOR) has the strongest animal lifespan data; metformin for insulin sensitivity (TAME). NAD+/NMN for cellular energy. Set expectations: human longevity outcome data are limited."
+  },
+  {
+    "id": "fatigue-energy",
+    "name": "Fatigue / Low Energy / Cellular Energy",
+    "match": ["fatigue", "low energy", "tired", "exhaustion", "brain fog", "burnout", "mental clarity", "recovery"],
+    "firstLine": ["nad-plus", "nmn"],
+    "adjuncts": ["sermorelin", "cjc-1295-ipamorelin"],
+    "avoidIf": ["active malignancy (NAD+ precursors caution)"],
+    "workup": ["rule out anemia, hypothyroidism, hypogonadism, sleep apnea, depression", "CBC, ferritin, TSH, testosterone, vitamin D, B12"],
+    "notes": "Always rule out treatable medical causes first. NAD+ (IV/SC) and NMN support mitochondrial energy. GH secretagogues can aid recovery and sleep quality where appropriate."
+  },
+  {
+    "id": "injury-recovery",
+    "name": "Injury Recovery / Joint & Tendon Healing",
+    "match": ["injury", "tendon", "ligament", "joint pain", "muscle strain", "recovery", "soft tissue", "sports injury", "healing"],
+    "firstLine": ["bpc-157"],
+    "adjuncts": ["thymosin-beta-4", "ghk-cu"],
+    "avoidIf": ["active or recent malignancy (pro-angiogenic peptides)", "pregnancy"],
+    "workup": ["confirm diagnosis / imaging as indicated", "cancer screen before peptide therapy"],
+    "notes": "Repair peptides (BPC-157 ± TB-500) are investigational/off-label with limited human data and current FDA compounding restrictions — document informed consent. Combine with rehab/physical therapy."
+  },
+  {
+    "id": "gh-optimization",
+    "name": "Growth Hormone Optimization / Body Composition / Sleep",
+    "match": ["growth hormone", "gh", "body composition", "muscle building", "recovery sleep", "lean mass", "deep sleep", "igf-1", "peptides body composition"],
+    "firstLine": ["sermorelin", "cjc-1295-ipamorelin"],
+    "adjuncts": ["ipamorelin", "tesamorelin"],
+    "avoidIf": ["active malignancy", "proliferative diabetic retinopathy", "pregnancy"],
+    "workup": ["baseline IGF-1", "fasting glucose/HbA1c", "TSH (hypothyroidism blunts response)", "cancer screen"],
+    "notes": "GH secretagogues preserve physiologic feedback vs exogenous rhGH. Keep IGF-1 in age-appropriate upper-normal range — not supraphysiologic. Tesamorelin specifically targets visceral fat."
+  },
+  {
+    "id": "immune-support",
+    "name": "Immune Support / Frequent Infections / Immunosenescence",
+    "match": ["immune support", "frequent infections", "immune system", "get sick often", "immunosenescence", "immune resilience", "antioxidant"],
+    "firstLine": ["thymosin-alpha-1"],
+    "adjuncts": ["glutathione", "nad-plus"],
+    "avoidIf": ["organ transplant on immunosuppression (thymosin alpha-1)", "active autoimmune flare"],
+    "workup": ["CBC with differential", "consider immunoglobulins if recurrent infections", "vitamin D"],
+    "notes": "Thymosin alpha-1 supports T-cell function (investigational in US, approved abroad). Glutathione for antioxidant/detox support. Avoid immune-activating peptides in transplant recipients."
+  },
+  {
+    "id": "chronic-pain-inflammation",
+    "name": "Chronic Pain / Inflammation / Autoimmune",
+    "match": ["chronic pain", "fibromyalgia", "inflammation", "autoimmune", "crohn", "neuropathic pain", "widespread pain", "ms", "inflammatory"],
+    "firstLine": ["low-dose-naltrexone"],
+    "adjuncts": ["bpc-157", "glutathione"],
+    "avoidIf": ["current opioid therapy or opioid dependence (LDN precipitates withdrawal)", "acute hepatitis"],
+    "workup": ["confirm opioid-free status", "inflammatory markers (hs-CRP, ESR)", "LFTs if hepatic concern"],
+    "notes": "LDN (1.5–4.5 mg nightly) modulates neuroinflammation; allow 6–8 weeks. Patient MUST be opioid-free. Emerging RCT support in fibromyalgia and Crohn's."
+  },
+  {
+    "id": "hair-loss",
+    "name": "Hair Loss / Thinning",
+    "match": ["hair loss", "thinning hair", "balding", "androgenetic alopecia", "receding hairline", "hair regrowth", "shedding"],
+    "firstLine": ["finasteride", "oral-minoxidil"],
+    "adjuncts": ["ghk-cu"],
+    "avoidIf": ["women who are or may become pregnant (finasteride teratogenicity)", "significant cardiovascular disease / pericardial effusion (oral minoxidil)"],
+    "workup": ["pattern/diagnosis (rule out telogen effluvium, thyroid, iron deficiency)", "baseline PSA if starting finasteride (men)", "BP/HR before oral minoxidil"],
+    "notes": "Finasteride (lowers DHT) + low-dose oral minoxidil is a synergistic combination. Topical compounds (finasteride/minoxidil/GHK-Cu) reduce systemic exposure. Effects take 3–6 months."
+  },
+  {
+    "id": "skin-dermatology",
+    "name": "Skin / Anti-Aging Dermatology",
+    "match": ["skin", "wrinkles", "fine lines", "photoaging", "acne", "skin tone", "collagen", "skin brightening", "anti-aging skin", "complexion"],
+    "firstLine": ["tretinoin"],
+    "adjuncts": ["ghk-cu", "glutathione"],
+    "avoidIf": ["pregnancy/breastfeeding (tretinoin)", "Wilson's disease (GHK-Cu)"],
+    "workup": ["skin assessment / barrier status", "pregnancy status if applicable"],
+    "notes": "Topical tretinoin is the gold-standard anti-aging active (collagen, turnover). GHK-Cu copper peptide for regeneration; glutathione for antioxidant/brightening. Daily SPF is mandatory with retinoids."
+  }
+]

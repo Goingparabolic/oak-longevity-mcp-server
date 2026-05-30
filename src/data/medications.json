@@ -1,0 +1,755 @@
+{
+  "semaglutide": {
+    "id": "semaglutide",
+    "name": "Semaglutide",
+    "aliases": ["ozempic", "wegovy", "rybelsus", "glp-1", "glp1"],
+    "categoryId": "weight-management",
+    "drugClass": "GLP-1 receptor agonist",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Long-acting GLP-1 receptor agonist for chronic weight management and type 2 diabetes; reduces appetite, slows gastric emptying, and improves glycemic control.",
+    "mechanism": "Selective glucagon-like peptide-1 (GLP-1) receptor agonist. Enhances glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying, and acts on hypothalamic centers to reduce appetite and energy intake.",
+    "whoFor": [
+      "Adults with BMI ≥30, or ≥27 with a weight-related comorbidity (HTN, dyslipidemia, OSA, prediabetes)",
+      "Type 2 diabetes requiring additional glycemic control",
+      "Patients seeking sustained appetite/satiety modulation as part of a supervised program"
+    ],
+    "notFor": [
+      "Personal or family history of medullary thyroid carcinoma or MEN 2",
+      "Type 1 diabetes or diabetic ketoacidosis",
+      "History of pancreatitis (relative)",
+      "Pregnancy or active attempt to conceive"
+    ],
+    "formulations": [
+      "Subcutaneous injection (compounded multi-dose vial, commonly 2.5 mg/mL or 5 mg/mL)",
+      "Branded subcutaneous pens (Ozempic, Wegovy)",
+      "Oral tablet (Rybelsus 3/7/14 mg)"
+    ]
+  },
+  "tirzepatide": {
+    "id": "tirzepatide",
+    "name": "Tirzepatide",
+    "aliases": ["mounjaro", "zepbound", "gip/glp-1", "dual agonist"],
+    "categoryId": "weight-management",
+    "drugClass": "Dual GIP/GLP-1 receptor agonist",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Dual GIP and GLP-1 receptor agonist with greater average weight loss than GLP-1 monotherapy; for chronic weight management and type 2 diabetes.",
+    "mechanism": "Single peptide that agonizes both the GIP and GLP-1 receptors. The combined incretin effect augments insulin secretion, suppresses glucagon, slows gastric emptying, and produces strong central appetite suppression — yielding larger weight reductions than GLP-1 agonism alone in head-to-head trials (SURMOUNT, SURPASS).",
+    "whoFor": [
+      "Adults with BMI ≥30, or ≥27 with a weight-related comorbidity",
+      "Type 2 diabetes, particularly when GLP-1 monotherapy is insufficient",
+      "Patients targeting higher-magnitude weight loss under supervision"
+    ],
+    "notFor": [
+      "Personal or family history of medullary thyroid carcinoma or MEN 2",
+      "Type 1 diabetes or diabetic ketoacidosis",
+      "History of pancreatitis (relative)",
+      "Pregnancy; may reduce efficacy of oral contraceptives"
+    ],
+    "formulations": [
+      "Subcutaneous injection (compounded multi-dose vial)",
+      "Branded subcutaneous pens/vials (Mounjaro, Zepbound)"
+    ]
+  },
+  "liraglutide": {
+    "id": "liraglutide",
+    "name": "Liraglutide",
+    "aliases": ["victoza", "saxenda"],
+    "categoryId": "weight-management",
+    "drugClass": "GLP-1 receptor agonist (daily)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Daily-injection GLP-1 receptor agonist for weight management and type 2 diabetes; shorter-acting than semaglutide.",
+    "mechanism": "GLP-1 receptor agonist with a ~13-hour half-life requiring once-daily dosing. Same incretin/appetite mechanism as semaglutide but with faster titration and clearance, useful when a shorter-acting agent or daily control is preferred.",
+    "whoFor": [
+      "Adults with BMI ≥30, or ≥27 with a comorbidity",
+      "Type 2 diabetes",
+      "Patients who prefer or tolerate daily dosing, or need a faster-off agent"
+    ],
+    "notFor": [
+      "Personal or family history of medullary thyroid carcinoma or MEN 2",
+      "Type 1 diabetes or DKA",
+      "History of pancreatitis (relative)",
+      "Pregnancy"
+    ],
+    "formulations": ["Subcutaneous daily injection pen (Victoza, Saxenda)"]
+  },
+  "naltrexone-bupropion": {
+    "id": "naltrexone-bupropion",
+    "name": "Naltrexone / Bupropion",
+    "aliases": ["contrave", "naltrexone bupropion", "nb"],
+    "categoryId": "weight-management",
+    "drugClass": "Opioid antagonist + aminoketone antidepressant combination",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Oral combination that reduces appetite and food cravings; an option for weight management without injection, especially with mood or craving components.",
+    "mechanism": "Bupropion stimulates hypothalamic POMC neurons (reducing appetite); naltrexone blocks the autoinhibitory opioid feedback loop on those neurons, sustaining the effect. The pair also modulates mesolimbic reward pathways involved in food craving.",
+    "whoFor": [
+      "Adults with BMI ≥30, or ≥27 with a comorbidity, who prefer oral therapy",
+      "Patients with prominent food cravings or comorbid low mood / smoking cessation goals"
+    ],
+    "notFor": [
+      "Seizure disorder, or conditions lowering seizure threshold (eating disorders, abrupt alcohol/benzo withdrawal)",
+      "Chronic opioid use or opioid dependence",
+      "Uncontrolled hypertension",
+      "Use with MAO inhibitors (within 14 days)"
+    ],
+    "formulations": ["Oral extended-release tablet (8 mg naltrexone / 90 mg bupropion); compounded capsule variants"]
+  },
+  "bpc-157": {
+    "id": "bpc-157",
+    "name": "BPC-157",
+    "aliases": ["body protection compound 157", "bpc157", "pentadecapeptide"],
+    "categoryId": "peptide-therapy",
+    "drugClass": "Synthetic pentadecapeptide (tissue-repair peptide)",
+    "schedule": "Rx compounded (research peptide; not FDA-approved)",
+    "summary": "Investigational tissue-repair peptide used off-label for musculoskeletal and GI healing; human evidence is limited to preclinical/early data.",
+    "mechanism": "A stable gastric pentadecapeptide derived from a human gastric protein. Preclinical data suggest it promotes angiogenesis (upregulating VEGFR2 and the nitric-oxide pathway), modulates growth factors, and accelerates tendon, ligament, muscle, and gut mucosal healing. Human clinical trial evidence is currently limited.",
+    "whoFor": [
+      "Patients with soft-tissue injuries (tendon/ligament/muscle) seeking adjunctive recovery support",
+      "GI complaints (e.g. inflammatory or ulcerative symptoms) as off-label adjunct",
+      "Fully informed patients accepting investigational status"
+    ],
+    "notFor": [
+      "Active or recent malignancy (theoretical angiogenesis concern)",
+      "Pregnancy or breastfeeding",
+      "Patients unwilling to accept non-FDA-approved investigational use"
+    ],
+    "formulations": [
+      "Subcutaneous injection (compounded, e.g. 5 mg or 10 mg vial)",
+      "Oral capsule (stable arginate salt) for GI indications"
+    ]
+  },
+  "sermorelin": {
+    "id": "sermorelin",
+    "name": "Sermorelin",
+    "aliases": ["ghrh 1-29", "sermorelin acetate"],
+    "categoryId": "peptide-therapy",
+    "drugClass": "Growth hormone-releasing hormone (GHRH) analog",
+    "schedule": "Rx compounded",
+    "summary": "GHRH analog that stimulates the pituitary to release the patient's own growth hormone; used for age-related GH decline and recovery/sleep support.",
+    "mechanism": "A 29-amino-acid GHRH analog (GHRH 1-29) that binds pituitary GHRH receptors to stimulate endogenous, pulsatile growth hormone secretion. Because it preserves physiologic feedback (vs. exogenous rhGH), GH levels remain regulated by somatostatin, lowering the risk of supraphysiologic exposure.",
+    "whoFor": [
+      "Adults with symptomatic age-related decline in GH/IGF-1 axis",
+      "Goals of improved body composition, recovery, and sleep quality",
+      "Patients preferring a secretagogue that preserves feedback regulation"
+    ],
+    "notFor": [
+      "Active malignancy",
+      "Proliferative diabetic retinopathy",
+      "Pregnancy/breastfeeding",
+      "Untreated severe hypothyroidism (blunts response)"
+    ],
+    "formulations": ["Subcutaneous injection (compounded, often combined with GHRP; nightly dosing)"]
+  },
+  "cjc-1295-ipamorelin": {
+    "id": "cjc-1295-ipamorelin",
+    "name": "CJC-1295 / Ipamorelin",
+    "aliases": ["cjc1295 ipamorelin", "cjc-1295", "cjc 1295", "ghrh ghrp combo"],
+    "categoryId": "peptide-therapy",
+    "drugClass": "GHRH analog + selective GH secretagogue (GHRP) combination",
+    "schedule": "Rx compounded",
+    "summary": "Synergistic blend of a GHRH analog (CJC-1295) and a selective ghrelin-receptor agonist (ipamorelin) to amplify pulsatile GH release with minimal effect on cortisol/prolactin.",
+    "mechanism": "CJC-1295 (without DAC in most compounded blends) is a GHRH analog that increases the amplitude of GH pulses; ipamorelin is a selective GH secretagogue (ghrelin/GHS-R agonist) that increases pulse frequency. Combined, they act on complementary receptors for a synergistic GH release. Ipamorelin is prized for selectivity — minimal cortisol, prolactin, or aldosterone stimulation.",
+    "whoFor": [
+      "Adults seeking GH-axis support for body composition, recovery, and sleep",
+      "Patients wanting a GHRH+GHRP synergy with a clean side-effect profile",
+      "Those preferring endogenous, pulsatile GH stimulation over rhGH"
+    ],
+    "notFor": [
+      "Active malignancy",
+      "Proliferative diabetic retinopathy",
+      "Pregnancy/breastfeeding"
+    ],
+    "formulations": ["Subcutaneous injection (compounded combined vial; typically nightly or 5 days/week)"]
+  },
+  "ipamorelin": {
+    "id": "ipamorelin",
+    "name": "Ipamorelin",
+    "aliases": ["ghrp"],
+    "categoryId": "peptide-therapy",
+    "drugClass": "Selective GH secretagogue (ghrelin receptor agonist)",
+    "schedule": "Rx compounded",
+    "summary": "Selective growth hormone secretagogue that increases GH pulse frequency with minimal impact on cortisol or prolactin; often paired with a GHRH analog.",
+    "mechanism": "A pentapeptide ghrelin/GHS-R1a agonist that triggers GH release from the pituitary. Highly selective compared with older GHRPs — it does not meaningfully raise cortisol, prolactin, or ACTH, making it well tolerated as a standalone or combination secretagogue.",
+    "whoFor": [
+      "Adults seeking a selective, well-tolerated GH secretagogue",
+      "Recovery, sleep, and body-composition goals",
+      "Combination with GHRH analogs (sermorelin, CJC-1295)"
+    ],
+    "notFor": ["Active malignancy", "Proliferative diabetic retinopathy", "Pregnancy/breastfeeding"],
+    "formulations": ["Subcutaneous injection (compounded vial; nightly dosing)"]
+  },
+  "tesamorelin": {
+    "id": "tesamorelin",
+    "name": "Tesamorelin",
+    "aliases": ["egrifta"],
+    "categoryId": "peptide-therapy",
+    "drugClass": "Stabilized GHRH analog",
+    "schedule": "Rx (FDA-approved for HIV lipodystrophy) / compounded",
+    "summary": "Stabilized GHRH analog FDA-approved to reduce visceral adipose tissue in HIV-associated lipodystrophy; used off-label for visceral fat reduction.",
+    "mechanism": "A synthetic, stabilized analog of human GHRH that stimulates endogenous GH secretion and raises IGF-1. Demonstrated specific reduction of visceral adipose tissue (VAT) in randomized trials, with the FDA indication in HIV lipodystrophy.",
+    "whoFor": [
+      "Patients targeting visceral adipose tissue reduction",
+      "HIV-associated lipodystrophy (on-label)",
+      "Metabolic optimization where central adiposity is a driver"
+    ],
+    "notFor": [
+      "Active malignancy",
+      "Disruption of the hypothalamic-pituitary axis (hypophysectomy, hypopituitarism)",
+      "Pregnancy/breastfeeding",
+      "Acute critical illness"
+    ],
+    "formulations": ["Subcutaneous daily injection (Egrifta; compounded)"]
+  },
+  "thymosin-beta-4": {
+    "id": "thymosin-beta-4",
+    "name": "Thymosin Beta-4 (TB-500)",
+    "aliases": ["tb-500", "tb500", "tβ4", "thymosin b4"],
+    "categoryId": "peptide-therapy",
+    "drugClass": "Actin-regulating regenerative peptide",
+    "schedule": "Rx compounded (research peptide; not FDA-approved)",
+    "summary": "Investigational regenerative peptide used off-label for tissue repair, flexibility, and recovery; human evidence is limited.",
+    "mechanism": "A naturally occurring 43-amino-acid peptide that sequesters G-actin and regulates cytoskeletal dynamics, cell migration, and angiogenesis. Preclinical models show promotion of wound healing, endothelial migration, and reduced inflammation/fibrosis. TB-500 is a synthetic fragment marketed for similar effects. Human clinical evidence is limited.",
+    "whoFor": [
+      "Soft-tissue injury recovery as an off-label adjunct",
+      "Patients accepting investigational status",
+      "Often combined with BPC-157 in repair protocols"
+    ],
+    "notFor": ["Active or recent malignancy", "Pregnancy/breastfeeding", "Patients unwilling to accept investigational use"],
+    "formulations": ["Subcutaneous injection (compounded vial)"]
+  },
+  "testosterone-cypionate": {
+    "id": "testosterone-cypionate",
+    "name": "Testosterone Cypionate",
+    "aliases": ["test cyp", "testosterone injection", "trt", "depo-testosterone"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Androgen (injectable testosterone ester)",
+    "schedule": "Schedule III (controlled)",
+    "summary": "Injectable long-acting testosterone ester for male hypogonadism / testosterone optimization; the workhorse of TRT.",
+    "mechanism": "Esterified testosterone providing a depot that releases bioidentical testosterone over days. Restores androgen signaling — supporting libido, energy, muscle mass, bone density, erythropoiesis, and mood — in men with clinically and biochemically confirmed hypogonadism.",
+    "whoFor": [
+      "Men with symptomatic hypogonadism confirmed on two morning total testosterone levels",
+      "Goals of restored libido, energy, lean mass, and well-being",
+      "Patients accepting fertility implications (suppresses spermatogenesis)"
+    ],
+    "notFor": [
+      "Untreated prostate or breast cancer",
+      "Hematocrit >54% (erythrocytosis)",
+      "Untreated severe obstructive sleep apnea",
+      "Men actively seeking fertility (suppresses the HPG axis)",
+      "Uncontrolled heart failure; pregnancy (teratogenic exposure to partner)"
+    ],
+    "formulations": ["Intramuscular or subcutaneous injection (100–200 mg/mL); compounded vials"]
+  },
+  "testosterone-cream": {
+    "id": "testosterone-cream",
+    "name": "Testosterone Cream / Gel",
+    "aliases": ["testosterone topical", "androgel", "testosterone gel", "transdermal testosterone"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Androgen (transdermal testosterone)",
+    "schedule": "Schedule III (controlled)",
+    "summary": "Transdermal testosterone for daily, steady-state androgen replacement; also low-dose options for female libido/vitality.",
+    "mechanism": "Bioidentical testosterone absorbed through skin to provide steady daily levels without injection peaks/troughs. Compounded concentrations allow individualized male replacement or low-dose female androgen support.",
+    "whoFor": [
+      "Men preferring daily transdermal replacement to injections",
+      "Women with low libido/vitality on physiologic low-dose protocols (off-label)",
+      "Patients wanting steady-state kinetics"
+    ],
+    "notFor": [
+      "Untreated prostate or breast cancer",
+      "Hematocrit >54%",
+      "Risk of secondary transfer to women or children (application-site precautions)",
+      "Pregnancy in household contacts"
+    ],
+    "formulations": ["Transdermal cream/gel (compounded, e.g. 100–200 mg/mL men; 1–10 mg/day women)"]
+  },
+  "estradiol": {
+    "id": "estradiol",
+    "name": "Estradiol",
+    "aliases": ["estrogen", "bioidentical estradiol", "e2", "biest"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Estrogen (bioidentical 17β-estradiol)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Bioidentical estrogen for menopausal symptom relief and hormone optimization; transdermal routes preferred for lower thrombotic risk.",
+    "mechanism": "17β-estradiol restores estrogen receptor signaling, relieving vasomotor symptoms, genitourinary atrophy, and supporting bone, cardiovascular, and cognitive health when initiated appropriately. Transdermal delivery avoids first-pass hepatic effects, reducing VTE and triglyceride impact versus oral.",
+    "whoFor": [
+      "Peri/postmenopausal women with vasomotor or genitourinary symptoms",
+      "Bone-density preservation and quality-of-life optimization",
+      "Generally within ~10 years of menopause or under age 60 (timing hypothesis)"
+    ],
+    "notFor": [
+      "Estrogen-sensitive cancer (breast, endometrial) — current or history",
+      "Unexplained vaginal bleeding",
+      "History of VTE / thromboembolic disease or known thrombophilia",
+      "Active liver disease; pregnancy",
+      "Use without progesterone in a woman with an intact uterus"
+    ],
+    "formulations": ["Transdermal patch, cream/gel, or pellet; oral tablet; compounded Bi-Est (E2/E3)"]
+  },
+  "progesterone": {
+    "id": "progesterone",
+    "name": "Progesterone",
+    "aliases": ["bioidentical progesterone", "prometrium", "micronized progesterone"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Progestogen (bioidentical micronized progesterone)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Bioidentical progesterone for endometrial protection with estrogen therapy and for sleep/mood and perimenopausal symptoms.",
+    "mechanism": "Micronized bioidentical progesterone provides endometrial protection against estrogen-driven hyperplasia and exerts calming/sedative effects via allopregnanolone (a GABA-A positive modulator), improving sleep and mood in many women.",
+    "whoFor": [
+      "Women on estrogen therapy with an intact uterus (mandatory endometrial protection)",
+      "Perimenopausal sleep disturbance, anxiety, or cycle irregularity",
+      "Hormone optimization regimens"
+    ],
+    "notFor": [
+      "Known or suspected breast cancer (relative; individualize)",
+      "Active liver disease",
+      "Active thromboembolic disorder",
+      "Peanut allergy (oral capsules historically contain peanut oil — verify formulation)"
+    ],
+    "formulations": ["Oral micronized capsule (bedtime), transdermal cream, vaginal; compounded"]
+  },
+  "dhea": {
+    "id": "dhea",
+    "name": "DHEA",
+    "aliases": ["dehydroepiandrosterone", "prasterone"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Adrenal precursor steroid",
+    "schedule": "OTC supplement / Rx compounded (vaginal prasterone is Rx)",
+    "summary": "Adrenal precursor hormone that declines with age; used to support androgen/estrogen balance, libido, vitality, and adrenal reserve.",
+    "mechanism": "Dehydroepiandrosterone is an adrenal steroid precursor that the body converts peripherally into androgens and estrogens. Supplementation aims to restore age-related decline, supporting libido, energy, body composition, and (vaginally as prasterone) genitourinary tissue.",
+    "whoFor": [
+      "Adults with documented low DHEA-S and related symptoms",
+      "Women with low libido/vitality (low-dose)",
+      "Adrenal support and hormone-precursor optimization"
+    ],
+    "notFor": [
+      "Hormone-sensitive cancers (may raise estrogen/androgen levels)",
+      "PCOS or androgen-excess states (women) — caution",
+      "Pregnancy/breastfeeding"
+    ],
+    "formulations": ["Oral capsule (typ. 25–50 mg), micronized; vaginal prasterone (Intrarosa); compounded"]
+  },
+  "anastrozole": {
+    "id": "anastrozole",
+    "name": "Anastrozole",
+    "aliases": ["arimidex", "aromatase inhibitor", "ai"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Aromatase inhibitor",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Aromatase inhibitor used as an adjunct in TRT to control excess estradiol conversion when clinically indicated.",
+    "mechanism": "Reversibly inhibits the aromatase enzyme, blocking peripheral conversion of testosterone to estradiol. In TRT, low-dose anastrozole can correct symptomatic or markedly elevated estradiol — but routine use is discouraged; over-suppression harms libido, mood, lipids, and bone.",
+    "whoFor": [
+      "Men on TRT with symptomatic, confirmed elevated estradiol",
+      "Cases where dose/frequency adjustment alone fails to control aromatization"
+    ],
+    "notFor": [
+      "Routine/prophylactic use in TRT without elevated estradiol",
+      "Women (unless oncology-directed)",
+      "Osteoporosis / low bone density (worsens by lowering estrogen)",
+      "Pregnancy"
+    ],
+    "formulations": ["Oral tablet (0.25–1 mg); compounded low-dose"]
+  },
+  "pregnenolone": {
+    "id": "pregnenolone",
+    "name": "Pregnenolone",
+    "aliases": ["preg"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Neurosteroid precursor",
+    "schedule": "OTC supplement / Rx compounded",
+    "summary": "Upstream steroid precursor and neurosteroid; used for cognition, mood, and as a hormone-cascade precursor.",
+    "mechanism": "The 'mother hormone' synthesized from cholesterol and upstream of DHEA, progesterone, cortisol, and sex steroids. Also acts directly as a neurosteroid modulating NMDA and GABA-A receptors, with proposed cognitive and mood benefits.",
+    "whoFor": [
+      "Adults with cognitive/mood concerns and low precursor status",
+      "Hormone-cascade and neurosteroid support",
+      "Adjunct in comprehensive hormone optimization"
+    ],
+    "notFor": [
+      "Hormone-sensitive cancers (theoretical downstream conversion)",
+      "Pregnancy/breastfeeding",
+      "Seizure disorders (caution, neurosteroid activity)"
+    ],
+    "formulations": ["Oral capsule (typ. 25–100 mg); compounded"]
+  },
+  "hcg": {
+    "id": "hcg",
+    "name": "Human Chorionic Gonadotropin (hCG)",
+    "aliases": ["hcg", "human chorionic gonadotropin", "pregnyl"],
+    "categoryId": "hormone-optimization",
+    "drugClass": "Gonadotropin (LH analog)",
+    "schedule": "Rx compounded",
+    "summary": "LH-mimetic that maintains testicular function and fertility during TRT, or stimulates endogenous testosterone production.",
+    "mechanism": "Human chorionic gonadotropin mimics luteinizing hormone, stimulating testicular Leydig cells to produce testosterone and preserve testicular volume and intratesticular testosterone. Used alongside TRT to maintain spermatogenesis/fertility, or as monotherapy to stimulate the gonadal axis.",
+    "whoFor": [
+      "Men on TRT wishing to preserve fertility / testicular volume",
+      "Secondary hypogonadism where stimulating endogenous production is preferred",
+      "Restart protocols after exogenous androgen suppression"
+    ],
+    "notFor": [
+      "Androgen-dependent neoplasia (prostate/breast cancer)",
+      "Precocious puberty",
+      "Pregnancy",
+      "Known hypersensitivity"
+    ],
+    "formulations": ["Subcutaneous/IM injection (compounded; reconstituted, dosed in IU)"]
+  },
+  "nad-plus": {
+    "id": "nad-plus",
+    "name": "NAD+",
+    "aliases": ["nad", "nad+", "nicotinamide adenine dinucleotide"],
+    "categoryId": "longevity-metabolic",
+    "drugClass": "Cellular coenzyme (NAD+ repletion therapy)",
+    "schedule": "Rx compounded (IV/SC/IM)",
+    "summary": "Coenzyme central to mitochondrial energy production and sirtuin/DNA-repair pathways; replenished via IV or injectable to support energy, recovery, and cellular aging.",
+    "mechanism": "Nicotinamide adenine dinucleotide is an essential redox coenzyme for ATP generation and a substrate for sirtuins and PARP DNA-repair enzymes. NAD+ levels decline with age; direct repletion (IV/SC) aims to restore mitochondrial function, support DNA repair, and improve energy and cognitive/metabolic resilience. Human longevity outcome data remain limited.",
+    "whoFor": [
+      "Adults targeting cellular energy, recovery, and healthy-aging support",
+      "Fatigue, cognitive sluggishness, or post-exertional recovery goals",
+      "Metabolic and neuroprotective optimization programs"
+    ],
+    "notFor": [
+      "Active malignancy (caution; NAD+ metabolism intersects tumor pathways)",
+      "Pregnancy/breastfeeding (insufficient data)",
+      "Rapid IV infusion intolerance (flushing, nausea, chest tightness — rate-dependent)"
+    ],
+    "formulations": ["IV infusion (slow), subcutaneous or intramuscular injection; oral precursors (NMN/NR) as alternatives"]
+  },
+  "metformin": {
+    "id": "metformin",
+    "name": "Metformin",
+    "aliases": ["glucophage", "metformin hcl"],
+    "categoryId": "longevity-metabolic",
+    "drugClass": "Biguanide (insulin sensitizer)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "First-line insulin sensitizer for type 2 diabetes; widely used off-label for metabolic and longevity goals (the TAME trial premise).",
+    "mechanism": "Activates AMP-activated protein kinase (AMPK) and inhibits hepatic gluconeogenesis and mitochondrial complex I, lowering hepatic glucose output and improving insulin sensitivity. Longevity interest stems from AMPK activation, reduced mTOR signaling, and epidemiologic associations with lower age-related disease incidence (basis of the TAME trial).",
+    "whoFor": [
+      "Type 2 diabetes / prediabetes / insulin resistance",
+      "PCOS and metabolic syndrome",
+      "Healthy-aging programs targeting insulin sensitivity (off-label)"
+    ],
+    "notFor": [
+      "eGFR <30 mL/min/1.73m² (contraindicated; caution 30–45)",
+      "Acute metabolic acidosis / unstable hypoxic states (lactic acidosis risk)",
+      "Hold around iodinated contrast and major surgery",
+      "Acute decompensated heart failure, severe hepatic impairment, heavy alcohol use"
+    ],
+    "formulations": ["Oral immediate-release and extended-release tablet (500/750/850/1000 mg)"]
+  },
+  "rapamycin": {
+    "id": "rapamycin",
+    "name": "Rapamycin (Sirolimus)",
+    "aliases": ["sirolimus", "rapamune", "rapa"],
+    "categoryId": "longevity-metabolic",
+    "drugClass": "mTOR inhibitor",
+    "schedule": "Rx (non-controlled; FDA-approved as immunosuppressant)",
+    "summary": "mTOR inhibitor used off-label at intermittent low doses for longevity/healthspan; the most robust pharmacologic lifespan-extender in animal models.",
+    "mechanism": "Forms a complex with FKBP12 to inhibit mTOR complex 1 (mTORC1), the central nutrient/growth-sensing kinase. Intermittent inhibition upregulates autophagy, reduces senescent-cell burden and chronic inflammation, and has extended lifespan across yeast, worms, flies, and mice. Off-label longevity use favors low, weekly/intermittent dosing to bias toward mTORC1 inhibition and minimize immunosuppression.",
+    "whoFor": [
+      "Health-conscious adults pursuing evidence-informed healthspan strategies (off-label)",
+      "Patients accepting investigational longevity rationale and monitoring",
+      "Typically intermittent (e.g. weekly) low-dose protocols"
+    ],
+    "notFor": [
+      "Active infection or significant immunocompromise",
+      "Poor wound healing / upcoming surgery (hold periprocedurally)",
+      "Uncontrolled hyperlipidemia or hyperglycemia (can worsen)",
+      "Pregnancy/breastfeeding; live-vaccine timing conflicts"
+    ],
+    "formulations": ["Oral tablet/solution (1 mg tablets); intermittent weekly dosing for longevity use"]
+  },
+  "berberine": {
+    "id": "berberine",
+    "name": "Berberine",
+    "aliases": ["berberine hcl", "dihydroberberine"],
+    "categoryId": "longevity-metabolic",
+    "drugClass": "Plant alkaloid (AMPK activator)",
+    "schedule": "OTC supplement",
+    "summary": "Botanical AMPK activator with metformin-like metabolic effects on glucose and lipids; an oral option for insulin sensitivity and lipid support.",
+    "mechanism": "An isoquinoline alkaloid that activates AMPK, improving insulin sensitivity, lowering fasting glucose and HbA1c, and modestly improving lipids. Often described as a 'nutraceutical metformin,' though less potent. Notable as a strong CYP3A4 and P-glycoprotein inhibitor (interaction risk).",
+    "whoFor": [
+      "Insulin resistance, prediabetes, metabolic syndrome (adjunct/alternative)",
+      "Mild dyslipidemia",
+      "Patients preferring a botanical AMPK activator"
+    ],
+    "notFor": [
+      "Pregnancy/breastfeeding (may cross placenta; kernicterus concern in neonates)",
+      "Concurrent CYP3A4-sensitive drugs (cyclosporine, many statins) — interaction risk",
+      "Significant hypoglycemia risk when combined with other glucose-lowering agents"
+    ],
+    "formulations": ["Oral capsule (typ. 500 mg); dihydroberberine for improved absorption"]
+  },
+  "resveratrol": {
+    "id": "resveratrol",
+    "name": "Resveratrol",
+    "aliases": ["trans-resveratrol"],
+    "categoryId": "longevity-metabolic",
+    "drugClass": "Polyphenol (sirtuin-pathway activator)",
+    "schedule": "OTC supplement",
+    "summary": "Polyphenol studied for sirtuin activation and metabolic/cardiovascular support; often paired with NAD+ precursors.",
+    "mechanism": "A stilbenoid polyphenol proposed to activate SIRT1 and AMPK, with antioxidant and anti-inflammatory effects. Frequently combined with NAD+ precursors on the rationale that sirtuins require NAD+ as a cofactor. Human longevity evidence is mixed; bioavailability is limited.",
+    "whoFor": [
+      "Metabolic/cardiovascular and antioxidant support",
+      "Adjunct to NAD+/NMN regimens",
+      "Healthy-aging supplementation"
+    ],
+    "notFor": [
+      "Significant bleeding risk / anticoagulation (mild antiplatelet effect)",
+      "Hormone-sensitive conditions (weak phytoestrogen activity — caution)",
+      "Pregnancy/breastfeeding"
+    ],
+    "formulations": ["Oral capsule (trans-resveratrol, typ. 150–500 mg), micronized"]
+  },
+  "nmn": {
+    "id": "nmn",
+    "name": "NMN (Nicotinamide Mononucleotide)",
+    "aliases": ["nicotinamide mononucleotide", "nmn"],
+    "categoryId": "longevity-metabolic",
+    "drugClass": "NAD+ precursor",
+    "schedule": "OTC supplement (regulatory status in flux)",
+    "summary": "Oral NAD+ precursor used to raise cellular NAD+ for energy, metabolic, and healthy-aging support; an alternative to injectable NAD+.",
+    "mechanism": "Nicotinamide mononucleotide is a direct biosynthetic precursor to NAD+, converted by NMNAT enzymes. Oral supplementation raises NAD+ in tissues in human studies, supporting mitochondrial function, sirtuin activity, and metabolic measures. Long-term outcome data are still emerging.",
+    "whoFor": [
+      "Adults seeking oral NAD+ support without infusions",
+      "Energy, metabolic, and healthy-aging goals",
+      "Often combined with resveratrol/TMG"
+    ],
+    "notFor": [
+      "Active malignancy (caution; NAD+ metabolism intersects tumor pathways)",
+      "Pregnancy/breastfeeding (insufficient data)"
+    ],
+    "formulations": ["Oral capsule/sublingual (typ. 250–1000 mg/day)"]
+  },
+  "pt-141": {
+    "id": "pt-141",
+    "name": "PT-141 (Bremelanotide)",
+    "aliases": ["bremelanotide", "vyleesi", "pt141"],
+    "categoryId": "sexual-health",
+    "drugClass": "Melanocortin receptor agonist",
+    "schedule": "Rx (FDA-approved as Vyleesi) / compounded",
+    "summary": "Centrally-acting melanocortin agonist that enhances sexual desire and arousal in both men and women — a non-vascular alternative to PDE5 inhibitors.",
+    "mechanism": "A synthetic melanocortin receptor agonist (primarily MC4R) acting in the central nervous system to increase sexual desire and arousal, independent of the vascular pathway targeted by PDE5 inhibitors. FDA-approved (Vyleesi) for hypoactive sexual desire disorder in premenopausal women; used off-label in men.",
+    "whoFor": [
+      "Premenopausal women with hypoactive sexual desire disorder (on-label)",
+      "Men or women seeking a centrally-acting libido agent",
+      "Patients who don't respond to or can't use PDE5 inhibitors"
+    ],
+    "notFor": [
+      "Uncontrolled hypertension or known cardiovascular disease (transient BP rise)",
+      "Use within ~8 hours of antihypertensive timing concerns",
+      "Pregnancy",
+      "Predisposition to focal hyperpigmentation (melanocortin effect)"
+    ],
+    "formulations": ["Subcutaneous injection (compounded or Vyleesi autoinjector); some nasal compounds"]
+  },
+  "oxytocin": {
+    "id": "oxytocin",
+    "name": "Oxytocin",
+    "aliases": ["oxt"],
+    "categoryId": "sexual-health",
+    "drugClass": "Neuropeptide hormone",
+    "schedule": "Rx compounded (sublingual/nasal for wellness use)",
+    "summary": "Bonding/arousal neuropeptide used off-label (sublingual/nasal) for intimacy, mood, and connection; distinct from IV obstetric use.",
+    "mechanism": "A hypothalamic nonapeptide acting on central oxytocin receptors that mediate social bonding, trust, arousal, and orgasm intensity, plus peripheral smooth-muscle effects. Wellness use favors low-dose sublingual or intranasal routes for libido, intimacy, and mood support.",
+    "whoFor": [
+      "Couples/individuals targeting intimacy, bonding, and arousal",
+      "Adjunct for low desire or anorgasmia",
+      "Mood/connection support (off-label)"
+    ],
+    "notFor": [
+      "Pregnancy (uterotonic — avoid wellness use)",
+      "Known hypersensitivity",
+      "Caution with cardiovascular instability or hyponatremia risk at higher doses"
+    ],
+    "formulations": ["Sublingual troche/drops or intranasal spray (compounded)"]
+  },
+  "tadalafil": {
+    "id": "tadalafil",
+    "name": "Tadalafil",
+    "aliases": ["cialis", "pde5"],
+    "categoryId": "sexual-health",
+    "drugClass": "PDE5 inhibitor (long-acting)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Long-acting PDE5 inhibitor for erectile function and BPH; daily low-dose option supports spontaneity and may aid endothelial health.",
+    "mechanism": "Inhibits phosphodiesterase type 5, increasing cGMP in vascular smooth muscle to enhance nitric-oxide-mediated vasodilation and penile blood flow with sexual stimulation. Its ~17.5-hour half-life enables daily low-dose use for spontaneity and lower urinary tract / endothelial benefits.",
+    "whoFor": [
+      "Men with erectile dysfunction",
+      "BPH/LUTS with or without ED (daily dosing)",
+      "Those preferring a long-acting agent or daily regimen"
+    ],
+    "notFor": [
+      "Concurrent nitrates or riociguat (absolute — severe hypotension)",
+      "Recent MI/stroke or unstable cardiovascular disease",
+      "Severe hypotension; caution with alpha-blockers",
+      "Use with caution alongside potent CYP3A4 inhibitors"
+    ],
+    "formulations": ["Oral tablet (2.5/5 mg daily; 10/20 mg as-needed); compounded combinations"]
+  },
+  "sildenafil": {
+    "id": "sildenafil",
+    "name": "Sildenafil",
+    "aliases": ["viagra", "pde5"],
+    "categoryId": "sexual-health",
+    "drugClass": "PDE5 inhibitor (short-acting)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Short-acting PDE5 inhibitor for on-demand erectile function support.",
+    "mechanism": "Inhibits PDE5 to raise cGMP and enhance nitric-oxide-mediated penile vasodilation with sexual stimulation. Onset ~30–60 minutes, duration ~4–6 hours — best for on-demand use. Absorption is delayed by high-fat meals.",
+    "whoFor": [
+      "Men with erectile dysfunction preferring on-demand dosing",
+      "Patients wanting a shorter-acting agent than tadalafil"
+    ],
+    "notFor": [
+      "Concurrent nitrates or riociguat (absolute)",
+      "Recent MI/stroke or unstable cardiovascular disease",
+      "Severe hypotension; caution with alpha-blockers and CYP3A4 inhibitors",
+      "Non-arteritic anterior ischemic optic neuropathy history"
+    ],
+    "formulations": ["Oral tablet (25/50/100 mg as-needed); compounded troches/combinations"]
+  },
+  "thymosin-alpha-1": {
+    "id": "thymosin-alpha-1",
+    "name": "Thymosin Alpha-1",
+    "aliases": ["ta1", "thymosin a1", "zadaxin", "tα1"],
+    "categoryId": "immune-inflammation",
+    "drugClass": "Immunomodulatory peptide",
+    "schedule": "Rx compounded (approved abroad as Zadaxin)",
+    "summary": "Immune-modulating peptide used to support T-cell function and immune balance; investigational in the US, approved in many countries.",
+    "mechanism": "A 28-amino-acid thymic peptide that promotes T-cell maturation and dendritic-cell function, modulates Th1/Th2 balance, augments antiviral and antitumor immune responses, and dampens excessive inflammation via Toll-like receptor signaling. Approved in numerous countries (Zadaxin) for hepatitis and as a vaccine/immune adjunct.",
+    "whoFor": [
+      "Patients seeking immune resilience or balance (chronic infection, immunosenescence)",
+      "Adjunctive immune support in comprehensive programs",
+      "Those accepting investigational status in the US"
+    ],
+    "notFor": [
+      "Organ transplant recipients on immunosuppression (immune-activating)",
+      "Active autoimmune disease (may aggravate — individualize)",
+      "Pregnancy/breastfeeding"
+    ],
+    "formulations": ["Subcutaneous injection (compounded; e.g. 1.5–6 mg per week divided)"]
+  },
+  "glutathione": {
+    "id": "glutathione",
+    "name": "Glutathione",
+    "aliases": ["gsh", "reduced glutathione", "l-glutathione"],
+    "categoryId": "immune-inflammation",
+    "drugClass": "Endogenous antioxidant (tripeptide)",
+    "schedule": "Rx compounded (IV/IM/nebulized) / OTC oral/liposomal",
+    "summary": "Master antioxidant supporting detoxification, immune function, and skin brightening; delivered IV/IM, nebulized, or as liposomal oral.",
+    "mechanism": "A cysteine-glycine-glutamate tripeptide and the body's principal intracellular antioxidant. Neutralizes reactive oxygen species, regenerates other antioxidants, supports hepatic phase-II detoxification (conjugation), and modulates immune cell function. Also inhibits melanogenesis (tyrosinase), the basis of its skin-brightening use.",
+    "whoFor": [
+      "Antioxidant, detoxification, and immune support",
+      "Skin brightening / dermatologic radiance goals",
+      "Adjunct in oxidative-stress-related fatigue programs"
+    ],
+    "notFor": [
+      "Sulfa/sulfite sensitivity (caution with IV formulations)",
+      "Active asthma when nebulized (bronchospasm risk)",
+      "Pregnancy/breastfeeding (insufficient data for high-dose use)"
+    ],
+    "formulations": ["IV push, intramuscular injection, nebulized; oral liposomal capsule"]
+  },
+  "low-dose-naltrexone": {
+    "id": "low-dose-naltrexone",
+    "name": "Low-Dose Naltrexone (LDN)",
+    "aliases": ["ldn", "naltrexone low dose"],
+    "categoryId": "immune-inflammation",
+    "drugClass": "Opioid antagonist (low-dose immunomodulator)",
+    "schedule": "Rx compounded",
+    "summary": "Low-dose naltrexone used off-label for immune modulation, chronic pain, fatigue, and autoimmune/inflammatory conditions.",
+    "mechanism": "At low doses (~1.5–4.5 mg), transient opioid-receptor blockade triggers a compensatory rise in endogenous endorphins and modulates glial/microglial Toll-like receptor 4 signaling, reducing neuroinflammation. Proposed benefits in fibromyalgia, Crohn's, MS, and other inflammatory/autoimmune conditions; evidence is emerging.",
+    "whoFor": [
+      "Chronic pain (e.g. fibromyalgia), fatigue, or inflammatory/autoimmune conditions",
+      "Patients seeking a non-opioid immunomodulatory option",
+      "Adjunct in complex chronic-illness programs"
+    ],
+    "notFor": [
+      "Current opioid therapy or opioid dependence (precipitates withdrawal)",
+      "Acute hepatitis or significant hepatic impairment (dose-dependent)",
+      "Pregnancy/breastfeeding (individualize)"
+    ],
+    "formulations": ["Oral compounded capsule (1.5/3/4.5 mg); titrated at bedtime"]
+  },
+  "finasteride": {
+    "id": "finasteride",
+    "name": "Finasteride",
+    "aliases": ["propecia", "proscar", "5-ari"],
+    "categoryId": "hair-restoration",
+    "drugClass": "5-alpha-reductase inhibitor (type II)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "5-alpha-reductase inhibitor for androgenetic alopecia and BPH; lowers scalp DHT to halt hair loss and promote regrowth.",
+    "mechanism": "Inhibits type II 5-alpha-reductase, reducing conversion of testosterone to dihydrotestosterone (DHT). Lower scalp DHT slows follicular miniaturization in androgenetic alopecia and shrinks the prostate in BPH. Often compounded into topical formulations to limit systemic exposure.",
+    "whoFor": [
+      "Men with androgenetic alopecia",
+      "BPH (higher dose)",
+      "Topical option for those wanting reduced systemic DHT suppression"
+    ],
+    "notFor": [
+      "Women who are or may become pregnant (teratogenic — fetal genital malformation; avoid handling crushed tablets)",
+      "History of depression (caution; possible mood effects)",
+      "Counsel on persistent sexual side-effect risk (post-finasteride syndrome debate)"
+    ],
+    "formulations": ["Oral tablet (1 mg alopecia, 5 mg BPH); compounded topical solution/foam (± minoxidil)"]
+  },
+  "oral-minoxidil": {
+    "id": "oral-minoxidil",
+    "name": "Oral Minoxidil (Low-Dose)",
+    "aliases": ["minoxidil", "low dose minoxidil", "lddm"],
+    "categoryId": "hair-restoration",
+    "drugClass": "Vasodilator (hair-growth stimulant)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Low-dose oral minoxidil for androgenetic alopecia and hair thinning; an effective option when topical minoxidil is poorly tolerated.",
+    "mechanism": "An ATP-sensitive potassium-channel opener and vasodilator. In hair follicles it prolongs the anagen (growth) phase and enlarges miniaturized follicles. Originally an antihypertensive; low oral doses (0.625–5 mg) effectively treat hair loss with better adherence than topical for many patients.",
+    "whoFor": [
+      "Men and women with androgenetic alopecia or diffuse thinning",
+      "Patients who can't tolerate topical minoxidil (scalp irritation, application burden)",
+      "Adjunct with finasteride/spironolactone"
+    ],
+    "notFor": [
+      "Significant cardiovascular disease, pericardial effusion, or uncontrolled tachyarrhythmia",
+      "Pheochromocytoma",
+      "Pregnancy/breastfeeding",
+      "Counsel on hypertrichosis (facial/body hair) and fluid retention/edema"
+    ],
+    "formulations": ["Oral tablet (compounded 0.625–5 mg daily)"]
+  },
+  "ghk-cu": {
+    "id": "ghk-cu",
+    "name": "GHK-Cu (Copper Peptide)",
+    "aliases": ["ghk", "copper peptide", "ghk copper", "copper tripeptide"],
+    "categoryId": "hair-restoration",
+    "drugClass": "Copper-binding tripeptide (regenerative/cosmeceutical)",
+    "schedule": "Rx compounded / topical cosmeceutical",
+    "summary": "Copper-binding tripeptide for skin regeneration, wound healing, and hair support; used topically and (off-label) injectable.",
+    "mechanism": "A naturally occurring copper-binding tripeptide (Gly-His-Lys) that declines with age. Promotes collagen and elastin synthesis, supports wound healing and angiogenesis, has antioxidant and anti-inflammatory effects, and stimulates dermal papilla cells implicated in hair follicle health. Most evidence is topical/cosmeceutical.",
+    "whoFor": [
+      "Skin regeneration, fine lines, and tone (dermatology)",
+      "Hair-follicle support as adjunct",
+      "Wound-healing and post-procedure recovery support"
+    ],
+    "notFor": [
+      "Copper metabolism disorders (Wilson's disease) — avoid",
+      "Pregnancy/breastfeeding (injectable; insufficient data)",
+      "Known copper hypersensitivity"
+    ],
+    "formulations": ["Topical serum/cream; compounded subcutaneous injection (off-label)"]
+  },
+  "tretinoin": {
+    "id": "tretinoin",
+    "name": "Tretinoin",
+    "aliases": ["retin-a", "all-trans retinoic acid", "retinoic acid"],
+    "categoryId": "dermatology",
+    "drugClass": "Topical retinoid (vitamin A derivative)",
+    "schedule": "Rx (non-controlled)",
+    "summary": "Topical retinoid for photoaging, fine lines, and acne; the gold-standard prescription anti-aging skincare active.",
+    "mechanism": "All-trans retinoic acid binds nuclear retinoic acid receptors to normalize keratinocyte differentiation, increase epidermal turnover, stimulate dermal collagen synthesis, and reduce comedone formation. Improves fine wrinkles, tone, texture, dyspigmentation, and acne with consistent use.",
+    "whoFor": [
+      "Photoaging, fine lines, uneven tone/texture",
+      "Acne (comedonal and inflammatory)",
+      "General prescription anti-aging skincare"
+    ],
+    "notFor": [
+      "Pregnancy/breastfeeding (avoid retinoids in pregnancy)",
+      "Active eczema/rosacea flares or compromised skin barrier (caution)",
+      "Counsel on photosensitivity — daily SPF required; expect initial retinization (irritation/peeling)"
+    ],
+    "formulations": ["Topical cream/gel (0.025–0.1%); compounded blends (± niacinamide, azelaic acid, hydroquinone)"]
+  }
+}

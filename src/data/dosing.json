@@ -1,0 +1,518 @@
+{
+  "semaglutide": [
+    {
+      "indication": "Weight management",
+      "route": "Subcutaneous, once weekly",
+      "starting": "0.25 mg weekly",
+      "titration": "Increase every 4 weeks as tolerated: 0.25 → 0.5 → 1.0 → 1.7 → 2.4 mg",
+      "maintenance": "1.7–2.4 mg weekly (titrate to tolerability and response)",
+      "max": "2.4 mg weekly",
+      "evidenceGrade": "A (STEP trials)",
+      "notes": "Slow titration limits GI side effects. Hold escalation if significant nausea. Reassess after 12 weeks at target dose; consider continuation if ≥5% weight loss."
+    },
+    {
+      "indication": "Type 2 diabetes",
+      "route": "Subcutaneous, once weekly",
+      "starting": "0.25 mg weekly x4 weeks (non-therapeutic, for tolerability)",
+      "titration": "0.5 mg weekly; may increase to 1.0 then 2.0 mg",
+      "maintenance": "0.5–2.0 mg weekly",
+      "max": "2.0 mg weekly (Ozempic)",
+      "evidenceGrade": "A (SUSTAIN trials)",
+      "notes": "Oral semaglutide (Rybelsus) alternative: 3 mg x30d → 7 mg → 14 mg daily, taken fasting with ≤4 oz water, 30 min before food/other meds."
+    }
+  ],
+  "tirzepatide": [
+    {
+      "indication": "Weight management",
+      "route": "Subcutaneous, once weekly",
+      "starting": "2.5 mg weekly",
+      "titration": "Increase by 2.5 mg every 4 weeks as tolerated: 2.5 → 5 → 7.5 → 10 → 12.5 → 15 mg",
+      "maintenance": "5–15 mg weekly (lowest effective dose maintaining response)",
+      "max": "15 mg weekly",
+      "evidenceGrade": "A (SURMOUNT trials)",
+      "notes": "Mean weight loss ~15–22% at higher doses. Titrate to tolerability; many patients maintain at 5–10 mg."
+    },
+    {
+      "indication": "Type 2 diabetes",
+      "route": "Subcutaneous, once weekly",
+      "starting": "2.5 mg weekly x4 weeks",
+      "titration": "5 mg weekly; increase by 2.5 mg q4wk as needed",
+      "maintenance": "5–15 mg weekly",
+      "max": "15 mg weekly",
+      "evidenceGrade": "A (SURPASS trials)",
+      "notes": "Superior HbA1c reduction vs semaglutide in head-to-head data."
+    }
+  ],
+  "liraglutide": [
+    {
+      "indication": "Weight management",
+      "route": "Subcutaneous, once daily",
+      "starting": "0.6 mg daily",
+      "titration": "Increase 0.6 mg weekly: 0.6 → 1.2 → 1.8 → 2.4 → 3.0 mg",
+      "maintenance": "3.0 mg daily (Saxenda)",
+      "max": "3.0 mg daily",
+      "evidenceGrade": "A (SCALE trials)",
+      "notes": "Daily dosing; discontinue if <4% weight loss by 16 weeks."
+    },
+    {
+      "indication": "Type 2 diabetes",
+      "route": "Subcutaneous, once daily",
+      "starting": "0.6 mg daily x1 week",
+      "titration": "1.2 mg daily; may increase to 1.8 mg",
+      "maintenance": "1.2–1.8 mg daily (Victoza)",
+      "max": "1.8 mg daily",
+      "evidenceGrade": "A (LEADER trial)",
+      "notes": "Cardiovascular benefit demonstrated in LEADER."
+    }
+  ],
+  "naltrexone-bupropion": [
+    {
+      "indication": "Weight management",
+      "route": "Oral",
+      "starting": "1 tablet (8/90 mg) every morning",
+      "titration": "Week 1: 1 tab AM. Week 2: 1 tab BID. Week 3: 2 tabs AM, 1 tab PM. Week 4+: 2 tabs BID",
+      "maintenance": "2 tablets twice daily (32 mg naltrexone / 360 mg bupropion total/day)",
+      "max": "32/360 mg per day",
+      "evidenceGrade": "A (COR trials)",
+      "notes": "Avoid high-fat meals (raises bupropion absorption/seizure risk). Discontinue if <5% weight loss by week 12 at maintenance."
+    }
+  ],
+  "bpc-157": [
+    {
+      "indication": "Musculoskeletal / soft-tissue repair",
+      "route": "Subcutaneous (near injury site) or intramuscular",
+      "starting": "200–300 mcg once or twice daily",
+      "titration": "Commonly 250–500 mcg/day total",
+      "maintenance": "250–500 mcg/day for 4–6 week cycles",
+      "max": "~500–600 mcg/day (no established maximum; investigational)",
+      "evidenceGrade": "D (preclinical / anecdotal; no large human RCTs)",
+      "notes": "Doses are empiric/protocol-based — not FDA-established. Typical cycles 4–8 weeks. Inform patient of investigational status."
+    },
+    {
+      "indication": "GI / gut healing",
+      "route": "Oral (stable arginate)",
+      "starting": "250–500 mcg once or twice daily",
+      "maintenance": "500 mcg/day for 4–8 weeks",
+      "max": "Empiric",
+      "evidenceGrade": "D (preclinical)",
+      "notes": "Oral route favored for GI-localized indications."
+    }
+  ],
+  "sermorelin": [
+    {
+      "indication": "GH-axis / age-related decline",
+      "route": "Subcutaneous, at bedtime",
+      "starting": "200–300 mcg nightly",
+      "titration": "Up to 300–500 mcg nightly as tolerated",
+      "maintenance": "200–500 mcg nightly, 5–7 nights/week",
+      "max": "~500 mcg nightly (empiric)",
+      "evidenceGrade": "C (mechanistic; limited modern RCTs)",
+      "notes": "Dose on empty stomach at night to align with natural GH pulse. Cycle and reassess IGF-1. Avoid carbohydrate near dosing (blunts GH release)."
+    }
+  ],
+  "cjc-1295-ipamorelin": [
+    {
+      "indication": "GH-axis / body composition, recovery, sleep",
+      "route": "Subcutaneous, at bedtime",
+      "starting": "CJC-1295 (no DAC) 100 mcg + ipamorelin 100–200 mcg nightly",
+      "titration": "Up to 200/200–300 mcg; some protocols 5 days on / 2 off",
+      "maintenance": "100–300 mcg of each, nightly or 5x/week",
+      "max": "~300 mcg each (empiric)",
+      "evidenceGrade": "C (mechanistic; limited human outcome data)",
+      "notes": "Dose fasting at night. Monitor IGF-1 to keep in age-appropriate upper range, not supraphysiologic. Cycle 3–6 months with reassessment."
+    }
+  ],
+  "ipamorelin": [
+    {
+      "indication": "GH-axis support",
+      "route": "Subcutaneous, at bedtime (± pre-workout)",
+      "starting": "100 mcg nightly",
+      "titration": "100–300 mcg per dose, 1–3x/day in some protocols",
+      "maintenance": "200–300 mcg nightly",
+      "max": "~300 mcg/dose (empiric)",
+      "evidenceGrade": "C (mechanistic)",
+      "notes": "Selective GHRP; commonly paired with a GHRH analog for synergy."
+    }
+  ],
+  "tesamorelin": [
+    {
+      "indication": "Visceral adipose tissue reduction / HIV lipodystrophy",
+      "route": "Subcutaneous, once daily",
+      "starting": "2 mg daily",
+      "titration": "None (fixed dose)",
+      "maintenance": "2 mg daily",
+      "max": "2 mg daily",
+      "evidenceGrade": "A for HIV lipodystrophy (FDA-approved); off-label otherwise",
+      "notes": "Reassess IGF-1; effect on VAT typically evident by 3–6 months. Discontinue if no response."
+    }
+  ],
+  "thymosin-beta-4": [
+    {
+      "indication": "Tissue repair / recovery",
+      "route": "Subcutaneous",
+      "starting": "2–2.5 mg, twice weekly",
+      "titration": "Loading ~2–2.5 mg 2x/week x4–6 weeks, then maintenance",
+      "maintenance": "2–2.5 mg once weekly maintenance",
+      "max": "Empiric",
+      "evidenceGrade": "D (preclinical / anecdotal)",
+      "notes": "Investigational. Often combined with BPC-157. Inform patient of non-FDA-approved status."
+    }
+  ],
+  "testosterone-cypionate": [
+    {
+      "indication": "Male hypogonadism (TRT)",
+      "route": "Intramuscular or subcutaneous",
+      "starting": "100 mg per week (often split, e.g. 50 mg twice weekly SC)",
+      "titration": "Adjust to mid-normal trough total testosterone (~500–700 ng/dL) and symptoms",
+      "maintenance": "100–200 mg per week (divided)",
+      "max": "~200 mg/week (higher rarely indicated; monitor HCT/estradiol)",
+      "evidenceGrade": "A (Endocrine Society guideline)",
+      "notes": "Twice-weekly or every-other-day SC dosing smooths levels and limits erythrocytosis/estradiol spikes vs large q2-week IM boluses. Target trough mid-normal range; check level before next dose."
+    }
+  ],
+  "testosterone-cream": [
+    {
+      "indication": "Male testosterone replacement",
+      "route": "Transdermal, daily",
+      "starting": "50–100 mg/day (e.g. 1 mL of 100 mg/mL)",
+      "titration": "Adjust to mid-normal total testosterone and symptoms",
+      "maintenance": "50–150 mg/day",
+      "max": "~200 mg/day",
+      "evidenceGrade": "A",
+      "notes": "Apply to clean dry skin (shoulders/upper arms or scrotal — scrotal needs lower dose). Avoid skin-to-skin transfer to women/children. Check level 2–4 weeks after start."
+    },
+    {
+      "indication": "Female androgen support (low libido/vitality)",
+      "route": "Transdermal, daily",
+      "starting": "1–2 mg/day",
+      "titration": "Adjust to keep total testosterone in upper-normal female range",
+      "maintenance": "1–5 mg/day",
+      "max": "~10 mg/day (avoid supraphysiologic female levels)",
+      "evidenceGrade": "B (off-label; ISSWSH guidance supports low-dose for HSDD)",
+      "notes": "Goal is physiologic female range — not male levels. Monitor for androgenic effects (acne, hirsutism, voice). Recheck level at 3–6 weeks."
+    }
+  ],
+  "estradiol": [
+    {
+      "indication": "Menopausal hormone therapy",
+      "route": "Transdermal (preferred) — patch, gel, or cream",
+      "starting": "Patch 0.025–0.05 mg/day, or gel/cream equivalent",
+      "titration": "Adjust to symptom relief at lowest effective dose",
+      "maintenance": "0.025–0.1 mg/day transdermal",
+      "max": "0.1 mg/day patch (individualize)",
+      "evidenceGrade": "A (menopause society guidelines)",
+      "notes": "Transdermal preferred — lower VTE/stroke risk than oral. ALWAYS pair with progesterone if uterus is intact. Initiate within 10 years of menopause / before age 60 for best benefit-risk."
+    }
+  ],
+  "progesterone": [
+    {
+      "indication": "Endometrial protection with estrogen / perimenopausal symptoms",
+      "route": "Oral micronized, at bedtime",
+      "starting": "100 mg nightly (continuous) or 200 mg nightly x12 days/month (cyclic)",
+      "titration": "200 mg nightly for sleep/symptom benefit if tolerated",
+      "maintenance": "100–200 mg nightly",
+      "max": "300 mg nightly (sedation-limited)",
+      "evidenceGrade": "A (endometrial protection)",
+      "notes": "Bedtime dosing leverages sedative allopregnanolone effect. Continuous regimen avoids monthly bleeding. Transdermal cream is insufficient for endometrial protection — use oral when opposing estrogen."
+    }
+  ],
+  "dhea": [
+    {
+      "indication": "Adrenal / hormone-precursor support",
+      "route": "Oral, morning",
+      "starting": "Women 5–10 mg/day; Men 25 mg/day",
+      "titration": "Adjust to DHEA-S in mid-normal age range",
+      "maintenance": "Women 10–25 mg/day; Men 25–50 mg/day",
+      "max": "50 mg/day (higher risks androgenic/estrogenic effects)",
+      "evidenceGrade": "B",
+      "notes": "Recheck DHEA-S (and downstream estradiol/testosterone) at 6–8 weeks. Lower doses in women to limit acne/hirsutism. Vaginal prasterone 6.5 mg nightly for GSM."
+    }
+  ],
+  "anastrozole": [
+    {
+      "indication": "Estradiol control adjunct to TRT",
+      "route": "Oral",
+      "starting": "0.25 mg once or twice weekly (only if estradiol confirmed elevated and symptomatic)",
+      "titration": "Adjust to keep estradiol mid-normal — do NOT crash it",
+      "maintenance": "0.25–0.5 mg, 1–2x/week",
+      "max": "1 mg/week (rarely needed)",
+      "evidenceGrade": "C (adjunctive; routine use discouraged)",
+      "notes": "Avoid over-suppression — low estradiol harms libido, mood, lipids, and bone in men. First optimize T dose/frequency before adding an AI. Recheck estradiol in 2–4 weeks."
+    }
+  ],
+  "pregnenolone": [
+    {
+      "indication": "Cognitive / mood / precursor support",
+      "route": "Oral, morning",
+      "starting": "25 mg/day",
+      "titration": "Increase to 50–100 mg as tolerated",
+      "maintenance": "25–100 mg/day",
+      "max": "100 mg/day (higher empiric)",
+      "evidenceGrade": "C",
+      "notes": "Morning dosing (can be activating). Monitor downstream hormones in comprehensive regimens."
+    }
+  ],
+  "hcg": [
+    {
+      "indication": "Fertility preservation during TRT",
+      "route": "Subcutaneous",
+      "starting": "250–500 IU twice weekly (alongside testosterone)",
+      "titration": "Adjust to maintain testicular volume / intratesticular T; up to 500 IU 2–3x/week",
+      "maintenance": "250–500 IU 2–3x/week",
+      "max": "~1500 IU/week (individualize; monitor estradiol)",
+      "evidenceGrade": "B",
+      "notes": "Preserves spermatogenesis and testicular size during exogenous androgen therapy. Monitor estradiol (hCG can raise it)."
+    },
+    {
+      "indication": "Secondary hypogonadism monotherapy / restart",
+      "route": "Subcutaneous",
+      "starting": "500–1000 IU 2–3x/week",
+      "titration": "Adjust to testosterone response",
+      "maintenance": "1000–3000 IU/week divided",
+      "max": "Individualize",
+      "evidenceGrade": "B",
+      "notes": "Stimulates endogenous testosterone; option for men prioritizing fertility over exogenous T."
+    }
+  ],
+  "nad-plus": [
+    {
+      "indication": "Energy / cellular aging support",
+      "route": "IV infusion (slow) or subcutaneous",
+      "starting": "IV 250 mg over 2–4 hours, or SC 50–100 mg",
+      "titration": "IV up to 500–750 mg per session as tolerated; SC daily/several times weekly",
+      "maintenance": "IV 250–500 mg every 1–4 weeks, or SC 50–100 mg several times weekly",
+      "max": "~1000 mg IV per session (rate-limited by tolerance)",
+      "evidenceGrade": "C (limited human outcome data)",
+      "notes": "Infuse SLOWLY — rapid IV causes flushing, nausea, chest/abdominal tightness; slow the rate to abort. Loading series (e.g. several sessions over 1–2 weeks) then maintenance is common."
+    }
+  ],
+  "metformin": [
+    {
+      "indication": "Type 2 diabetes / insulin resistance",
+      "route": "Oral, with meals",
+      "starting": "500 mg once daily with the evening meal",
+      "titration": "Increase by 500 mg weekly as tolerated",
+      "maintenance": "1000–2000 mg/day (divided or ER once daily)",
+      "max": "2550 mg/day (IR); 2000 mg/day (ER)",
+      "evidenceGrade": "A",
+      "notes": "Extended-release improves GI tolerance. Take with food. Hold for iodinated contrast and major surgery; verify eGFR ≥30."
+    },
+    {
+      "indication": "Longevity / metabolic optimization (off-label)",
+      "route": "Oral",
+      "starting": "500 mg ER with evening meal",
+      "titration": "To 500–1500 mg as tolerated",
+      "maintenance": "500–1500 mg/day",
+      "max": "Typically ≤2000 mg/day for this use",
+      "evidenceGrade": "C (TAME trial pending; epidemiologic associations)",
+      "notes": "May blunt exercise-induced mitochondrial adaptations at higher doses — consider timing away from training. Monitor B12 on long-term use."
+    }
+  ],
+  "rapamycin": [
+    {
+      "indication": "Longevity / healthspan (off-label)",
+      "route": "Oral, once weekly (intermittent)",
+      "starting": "3 mg once weekly",
+      "titration": "Some protocols 3–6 mg weekly, occasionally up to 8 mg weekly, guided by tolerability/biomarkers",
+      "maintenance": "3–6 mg once weekly",
+      "max": "~8 mg once weekly (off-label longevity ceiling varies by clinician)",
+      "evidenceGrade": "C (robust animal data; human longevity RCTs ongoing/limited)",
+      "notes": "Intermittent weekly dosing biases toward mTORC1 inhibition and limits immunosuppression vs daily transplant dosing. Hold around infections, surgery, and live vaccines. Monitor lipids, glucose, CBC."
+    }
+  ],
+  "berberine": [
+    {
+      "indication": "Glucose / lipid metabolic support",
+      "route": "Oral, with meals",
+      "starting": "500 mg once daily with a meal",
+      "titration": "Increase to 500 mg 2–3x/day with meals",
+      "maintenance": "1000–1500 mg/day divided",
+      "max": "1500 mg/day",
+      "evidenceGrade": "B",
+      "notes": "Divide doses with meals to limit GI upset. Strong CYP3A4/P-gp inhibitor — screen interactions. Dihydroberberine allows lower dosing."
+    }
+  ],
+  "resveratrol": [
+    {
+      "indication": "Metabolic / antioxidant support",
+      "route": "Oral, with fat-containing meal",
+      "starting": "150 mg/day",
+      "titration": "Up to 250–500 mg/day",
+      "maintenance": "150–500 mg/day",
+      "max": "~1000 mg/day (GI-limited)",
+      "evidenceGrade": "C",
+      "notes": "Take with dietary fat for absorption. Often paired with NMN/NAD+. Mild antiplatelet effect — caution with anticoagulants."
+    }
+  ],
+  "nmn": [
+    {
+      "indication": "NAD+ support / healthy aging",
+      "route": "Oral or sublingual",
+      "starting": "250 mg/day",
+      "titration": "Increase to 500–1000 mg/day",
+      "maintenance": "250–1000 mg/day (often morning)",
+      "max": "~1200 mg/day (studied range)",
+      "evidenceGrade": "B (raises NAD+ in human studies; outcomes emerging)",
+      "notes": "Morning dosing aligns with circadian NAD+ rhythm. Often combined with TMG (methyl donor) and resveratrol."
+    }
+  ],
+  "pt-141": [
+    {
+      "indication": "Sexual desire / arousal",
+      "route": "Subcutaneous, on demand",
+      "starting": "0.5–1 mg SC ~45 min to a few hours before activity",
+      "titration": "Up to 1.75 mg (Vyleesi dose) based on response/tolerability",
+      "maintenance": "On-demand; no more than one dose per 24h and ≤8 doses/month",
+      "max": "1.75 mg per dose",
+      "evidenceGrade": "A for premenopausal HSDD (FDA-approved Vyleesi); off-label in men",
+      "notes": "Start low to assess nausea (common) and transient BP rise. Avoid in uncontrolled hypertension/CVD. Do not exceed one dose/24h."
+    }
+  ],
+  "oxytocin": [
+    {
+      "indication": "Intimacy / libido / mood (wellness)",
+      "route": "Sublingual or intranasal, on demand",
+      "starting": "Sublingual 10–20 IU (or ~20–40 IU) ~30–60 min before activity",
+      "titration": "Adjust within ~10–80 IU range by response",
+      "maintenance": "On-demand or regular low-dose per protocol",
+      "max": "Empiric (wellness use)",
+      "evidenceGrade": "C (off-label wellness use)",
+      "notes": "Compounded sublingual/nasal only — not IV. Avoid in pregnancy (uterotonic)."
+    }
+  ],
+  "tadalafil": [
+    {
+      "indication": "Erectile dysfunction (daily)",
+      "route": "Oral, once daily",
+      "starting": "2.5 mg daily",
+      "titration": "Increase to 5 mg daily based on response",
+      "maintenance": "2.5–5 mg daily",
+      "max": "5 mg/day (daily regimen)",
+      "evidenceGrade": "A",
+      "notes": "Daily dosing allows spontaneity and treats LUTS/BPH. Absolutely avoid with nitrates."
+    },
+    {
+      "indication": "Erectile dysfunction (as needed)",
+      "route": "Oral, on demand",
+      "starting": "10 mg before activity",
+      "titration": "5–20 mg based on response",
+      "maintenance": "10–20 mg as needed (≤once daily)",
+      "max": "20 mg/dose",
+      "evidenceGrade": "A",
+      "notes": "Onset ~30–60 min, effect up to 36h. Reduce dose with potent CYP3A4 inhibitors."
+    }
+  ],
+  "sildenafil": [
+    {
+      "indication": "Erectile dysfunction (as needed)",
+      "route": "Oral, on demand",
+      "starting": "50 mg ~1 hour before activity",
+      "titration": "25–100 mg based on response/tolerability",
+      "maintenance": "25–100 mg as needed (≤once daily)",
+      "max": "100 mg/dose",
+      "evidenceGrade": "A",
+      "notes": "High-fat meals delay onset. Start 25 mg with CYP3A4 inhibitors, age >65, or renal/hepatic impairment. Absolutely avoid with nitrates."
+    }
+  ],
+  "thymosin-alpha-1": [
+    {
+      "indication": "Immune support / modulation",
+      "route": "Subcutaneous",
+      "starting": "1.6 mg twice weekly",
+      "titration": "1.6 mg 2–3x/week; intensive protocols use daily short courses",
+      "maintenance": "1.6 mg twice weekly (cycle and reassess)",
+      "max": "Empiric (approved hepatitis protocols use 1.6 mg 2x/week)",
+      "evidenceGrade": "B (approved abroad; US investigational)",
+      "notes": "Dosing mirrors approved Zadaxin regimens. Avoid in transplant immunosuppression and active autoimmune flares."
+    }
+  ],
+  "glutathione": [
+    {
+      "indication": "Antioxidant / detox / skin",
+      "route": "IV push, IM, or oral liposomal",
+      "starting": "IV 600–1200 mg per session; oral liposomal 250–500 mg/day",
+      "titration": "IV up to 2000 mg per session; 1–2 sessions/week",
+      "maintenance": "IV 1–2x/week or oral daily",
+      "max": "~2000 mg IV per session (empiric)",
+      "evidenceGrade": "C",
+      "notes": "IV push given slowly. Avoid nebulized form in asthmatics (bronchospasm). Pair with vitamin C in many protocols."
+    }
+  ],
+  "low-dose-naltrexone": [
+    {
+      "indication": "Immune / inflammatory / chronic pain",
+      "route": "Oral, at bedtime",
+      "starting": "1.5 mg nightly",
+      "titration": "Increase by 1.5 mg every 1–2 weeks to target",
+      "maintenance": "3–4.5 mg nightly",
+      "max": "4.5 mg nightly (occasionally up to 6 mg)",
+      "evidenceGrade": "B (emerging RCTs in fibromyalgia, Crohn's)",
+      "notes": "Must be opioid-free (precipitates withdrawal). Vivid dreams/sleep disturbance early — try AM dosing if so. Allow 6–8 weeks for effect."
+    }
+  ],
+  "finasteride": [
+    {
+      "indication": "Androgenetic alopecia",
+      "route": "Oral, daily",
+      "starting": "1 mg daily",
+      "titration": "None typically (1 mg is standard); some use 0.5 mg or topical",
+      "maintenance": "1 mg daily (or topical 0.1–0.25% solution)",
+      "max": "1 mg/day for alopecia (5 mg is BPH dose)",
+      "evidenceGrade": "A",
+      "notes": "Effect takes 3–6 months; benefit lost ~6–12 months after stopping. Topical compounding reduces systemic DHT suppression. Teratogenic — women of childbearing potential must not handle."
+    },
+    {
+      "indication": "Benign prostatic hyperplasia",
+      "route": "Oral, daily",
+      "starting": "5 mg daily",
+      "maintenance": "5 mg daily",
+      "max": "5 mg/day",
+      "evidenceGrade": "A",
+      "notes": "Reduces PSA ~50% — double measured PSA when screening. Effect on symptoms over 3–6 months."
+    }
+  ],
+  "oral-minoxidil": [
+    {
+      "indication": "Androgenetic alopecia / thinning",
+      "route": "Oral, daily",
+      "starting": "Women 0.625–1.25 mg daily; Men 1.25–2.5 mg daily",
+      "titration": "Increase gradually to 2.5–5 mg as tolerated",
+      "maintenance": "Women 1.25–2.5 mg/day; Men 2.5–5 mg/day",
+      "max": "5 mg/day (hair use)",
+      "evidenceGrade": "B (growing dermatology evidence)",
+      "notes": "Monitor for hypertrichosis, ankle edema, lightheadedness, tachycardia. Start low; effect over 3–6 months. Consider baseline BP/HR."
+    }
+  ],
+  "ghk-cu": [
+    {
+      "indication": "Skin regeneration / anti-aging (topical)",
+      "route": "Topical",
+      "starting": "Apply 1–2% serum/cream once or twice daily",
+      "maintenance": "Daily topical use",
+      "max": "Per product; well tolerated topically",
+      "evidenceGrade": "B (topical cosmeceutical evidence)",
+      "notes": "Avoid layering directly with high-dose vitamin C (can interact). Most robust evidence is topical."
+    },
+    {
+      "indication": "Tissue repair / hair (injectable, off-label)",
+      "route": "Subcutaneous",
+      "starting": "1–2 mg per session",
+      "maintenance": "1–2 mg, 1–3x/week in cycles",
+      "max": "Empiric",
+      "evidenceGrade": "D (off-label)",
+      "notes": "Investigational injectable use. Avoid in Wilson's disease / copper disorders."
+    }
+  ],
+  "tretinoin": [
+    {
+      "indication": "Photoaging / acne",
+      "route": "Topical, at night",
+      "starting": "0.025% pea-sized amount 2–3 nights/week",
+      "titration": "Increase frequency to nightly and strength (0.05 → 0.1%) as tolerated over weeks",
+      "maintenance": "0.025–0.1% nightly",
+      "max": "0.1% nightly",
+      "evidenceGrade": "A",
+      "notes": "Apply to dry skin; 'retinization' irritation expected early — buffer with moisturizer and reduce frequency if needed. Daily SPF mandatory. Avoid in pregnancy."
+    }
+  ]
+}

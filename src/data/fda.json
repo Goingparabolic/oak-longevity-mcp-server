@@ -1,0 +1,282 @@
+{
+  "semaglutide": {
+    "status": "FDA-approved (Ozempic, Wegovy, Rybelsus).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Removed from the FDA drug shortage list (semaglutide injection resolved Feb 2025). Compounding of 'essentially copies' of the approved drug is generally not permitted under 503A/503B now that the shortage has resolved — verify current FDA shortage status and state board rules before compounding.",
+    "approvedUses": ["Type 2 diabetes (Ozempic, Rybelsus)", "Chronic weight management (Wegovy)", "Cardiovascular risk reduction (select indications)"],
+    "offLabelNote": "Use outside approved BMI/indication thresholds is off-label.",
+    "references": ["FDA shortage database", "Wegovy/Ozempic prescribing information", "Section 503A/503B FD&C Act"]
+  },
+  "tirzepatide": {
+    "status": "FDA-approved (Mounjaro, Zepbound).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Tirzepatide shortage declared resolved by FDA (2025); compounding of copies is generally restricted now that supply is restored. Verify current shortage status and state rules.",
+    "approvedUses": ["Type 2 diabetes (Mounjaro)", "Chronic weight management (Zepbound)", "Obstructive sleep apnea with obesity (Zepbound)"],
+    "offLabelNote": "Doses/indications beyond labeling are off-label.",
+    "references": ["FDA shortage database", "Zepbound/Mounjaro prescribing information"]
+  },
+  "liraglutide": {
+    "status": "FDA-approved (Victoza, Saxenda); generics available.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercially available — not a compounding candidate.",
+    "approvedUses": ["Type 2 diabetes (Victoza)", "Chronic weight management (Saxenda)"],
+    "offLabelNote": "Off-label outside approved thresholds.",
+    "references": ["Victoza/Saxenda prescribing information"]
+  },
+  "naltrexone-bupropion": {
+    "status": "FDA-approved combination (Contrave).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Components are individually approved; compounded combinations exist but the fixed-dose product is commercially available.",
+    "approvedUses": ["Chronic weight management"],
+    "offLabelNote": "Compounded ratios/doses are off-label relative to Contrave.",
+    "references": ["Contrave prescribing information"]
+  },
+  "bpc-157": {
+    "status": "NOT FDA-approved. Investigational research peptide.",
+    "schedule": "Not a controlled substance.",
+    "compounding": "In 2023 the FDA placed BPC-157 in Category 2 of the 503A bulk substances list (significant safety risk / insufficient data), meaning it should not be compounded under 503A pending review. Availability is restricted; verify current FDA bulk-substance status and state board position.",
+    "approvedUses": ["None (no FDA-approved indication)."],
+    "offLabelNote": "All clinical use is investigational/off-label; document informed consent.",
+    "references": ["FDA 503A bulks list (Category 2)", "FDA peptide compounding guidance"]
+  },
+  "sermorelin": {
+    "status": "Previously FDA-approved (Geref, withdrawn for commercial reasons, not safety); now compounded.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Compounded by 503A pharmacies. Regulatory scrutiny of GHRH/peptide compounding is increasing — verify the pharmacy's sourcing and current FDA position.",
+    "approvedUses": ["Historically: diagnostic of GH secretion; pediatric GH deficiency (product withdrawn)."],
+    "offLabelNote": "Adult anti-aging/wellness use is off-label.",
+    "references": ["FDA Orange Book (withdrawn)", "503A bulk substances list"]
+  },
+  "cjc-1295-ipamorelin": {
+    "status": "NOT FDA-approved. Compounded research peptides.",
+    "schedule": "Not controlled.",
+    "compounding": "Both components face FDA bulk-substance scrutiny; ipamorelin and CJC-1295 have been flagged in the agency's peptide review. Verify current 503A bulk-list status before compounding.",
+    "approvedUses": ["None."],
+    "offLabelNote": "Investigational/off-label; informed consent advised.",
+    "references": ["FDA 503A bulk substances nominations/review", "FDA peptide compounding statements"]
+  },
+  "ipamorelin": {
+    "status": "NOT FDA-approved. Compounded research peptide.",
+    "schedule": "Not controlled.",
+    "compounding": "Under FDA peptide bulk-substance review; restricted availability. Verify current status.",
+    "approvedUses": ["None."],
+    "offLabelNote": "Investigational/off-label.",
+    "references": ["FDA 503A bulk substances review"]
+  },
+  "tesamorelin": {
+    "status": "FDA-approved (Egrifta) for HIV-associated lipodystrophy.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial product available; compounded use is off-label and faces peptide-compounding scrutiny.",
+    "approvedUses": ["Reduction of excess visceral abdominal fat in HIV-associated lipodystrophy."],
+    "offLabelNote": "General visceral-fat/anti-aging use is off-label.",
+    "references": ["Egrifta prescribing information"]
+  },
+  "thymosin-beta-4": {
+    "status": "NOT FDA-approved (TB-500 is a synthetic fragment). Investigational.",
+    "schedule": "Not controlled (banned by WADA in sport).",
+    "compounding": "Flagged in FDA peptide bulk-substance review; not an approved compounding substance. Verify current status.",
+    "approvedUses": ["None."],
+    "offLabelNote": "Investigational/off-label; prohibited in competitive sport.",
+    "references": ["FDA 503A bulk substances review", "WADA Prohibited List"]
+  },
+  "testosterone-cypionate": {
+    "status": "FDA-approved (Depo-Testosterone and generics).",
+    "schedule": "Schedule III controlled substance (anabolic steroid).",
+    "compounding": "Commercially available; compounded concentrations available via 503A. DEA controlled — follow controlled-substance prescribing rules.",
+    "approvedUses": ["Male hypogonadism (primary and hypogonadotropic)."],
+    "offLabelNote": "Use in women and 'age-related low T' without classic hypogonadism is off-label.",
+    "references": ["Depo-Testosterone prescribing information", "DEA Schedule III", "Endocrine Society guideline"]
+  },
+  "testosterone-cream": {
+    "status": "FDA-approved transdermal products exist (AndroGel, etc.); compounded creams common.",
+    "schedule": "Schedule III controlled substance.",
+    "compounding": "Compounded transdermal testosterone via 503A (esp. low-dose female and custom male concentrations).",
+    "approvedUses": ["Male hypogonadism (approved gels)."],
+    "offLabelNote": "Female low-dose androgen therapy is off-label (ISSWSH supports for HSDD).",
+    "references": ["AndroGel prescribing information", "DEA Schedule III", "ISSWSH testosterone position statement"]
+  },
+  "estradiol": {
+    "status": "FDA-approved (numerous transdermal, oral, vaginal products).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial bioidentical products available; compounded bioidentical hormone therapy (cBHT) widely used but the 2020 NASEM report questioned routine cBHT use where approved products exist.",
+    "approvedUses": ["Vasomotor symptoms of menopause", "Genitourinary syndrome of menopause", "Osteoporosis prevention", "Hypoestrogenism."],
+    "offLabelNote": "Pellets and some compounded combinations are not FDA-approved.",
+    "references": ["FDA-approved estradiol labeling", "NASEM 2020 cBHT report", "Menopause Society position statement"]
+  },
+  "progesterone": {
+    "status": "FDA-approved (Prometrium micronized progesterone).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Approved oral micronized product available; compounded forms (creams, troches) used but cream is inadequate for endometrial protection.",
+    "approvedUses": ["Endometrial protection with estrogen", "Secondary amenorrhea."],
+    "offLabelNote": "Sleep/mood and transdermal use are off-label.",
+    "references": ["Prometrium prescribing information", "NASEM 2020 cBHT report"]
+  },
+  "dhea": {
+    "status": "Sold as a dietary supplement (OTC); vaginal prasterone (Intrarosa) is FDA-approved.",
+    "schedule": "Not controlled in the US (banned in some sports).",
+    "compounding": "OTC supplement; compounded/Rx forms available. Quality of OTC products varies.",
+    "approvedUses": ["Intrarosa (prasterone) for moderate-to-severe dyspareunia due to GSM."],
+    "offLabelNote": "Systemic anti-aging/hormone use is supplement/off-label.",
+    "references": ["Intrarosa prescribing information", "DSHEA supplement framework"]
+  },
+  "anastrozole": {
+    "status": "FDA-approved (Arimidex and generics) for breast cancer.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial tablets available; compounded low-dose used in men's TRT (off-label).",
+    "approvedUses": ["Hormone-receptor-positive breast cancer (adjuvant and metastatic) in postmenopausal women."],
+    "offLabelNote": "Use in men for estradiol control during TRT is off-label.",
+    "references": ["Arimidex prescribing information"]
+  },
+  "pregnenolone": {
+    "status": "Sold as a dietary supplement (OTC).",
+    "schedule": "Not controlled.",
+    "compounding": "OTC supplement / compounded.",
+    "approvedUses": ["None (no FDA drug approval)."],
+    "offLabelNote": "All therapeutic use is supplement-based/off-label.",
+    "references": ["DSHEA supplement framework"]
+  },
+  "hcg": {
+    "status": "FDA-approved (injectable hCG) for specific indications.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Compounded hCG used in TRT/fertility protocols. Note: hCG for weight loss is explicitly NOT FDA-approved and the agency has acted against hCG weight-loss claims.",
+    "approvedUses": ["Hypogonadotropic hypogonadism / induction of ovulation / prepubertal cryptorchidism."],
+    "offLabelNote": "Fertility preservation during TRT is off-label; weight-loss use is prohibited/unapproved.",
+    "references": ["hCG prescribing information", "FDA statements on hCG weight-loss products"]
+  },
+  "nad-plus": {
+    "status": "NOT an FDA-approved drug. Used as an injectable/IV compounded therapy or supplement precursor.",
+    "schedule": "Not controlled.",
+    "compounding": "Injectable NAD+ is compounded via 503A/503B; NAD+ as an injectable has been discussed in FDA bulk-substance reviews. Verify current status.",
+    "approvedUses": ["None."],
+    "offLabelNote": "All wellness/longevity use is off-label/investigational.",
+    "references": ["FDA 503A bulk substances review", "DSHEA (for oral precursors)"]
+  },
+  "metformin": {
+    "status": "FDA-approved (Glucophage and generics).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Widely commercially available.",
+    "approvedUses": ["Type 2 diabetes mellitus."],
+    "offLabelNote": "PCOS, prediabetes, and longevity/metabolic use are off-label (TAME trial investigating aging endpoints).",
+    "references": ["Glucophage prescribing information", "TAME trial (Targeting Aging with Metformin)"]
+  },
+  "rapamycin": {
+    "status": "FDA-approved (Rapamune/sirolimus) as an immunosuppressant.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial tablets/solution available; off-label intermittent low-dose longevity use prescribed from approved product.",
+    "approvedUses": ["Prophylaxis of organ rejection in renal transplant", "Lymphangioleiomyomatosis (LAM)."],
+    "offLabelNote": "Longevity/healthspan use is off-label and investigational (PEARL and other trials ongoing).",
+    "references": ["Rapamune prescribing information", "PEARL trial", "mTOR/longevity literature"]
+  },
+  "berberine": {
+    "status": "Dietary supplement (OTC).",
+    "schedule": "Not controlled.",
+    "compounding": "OTC botanical supplement.",
+    "approvedUses": ["None (no FDA drug approval)."],
+    "offLabelNote": "Metabolic use is supplement-based; significant CYP3A4/P-gp interaction profile.",
+    "references": ["DSHEA supplement framework"]
+  },
+  "resveratrol": {
+    "status": "Dietary supplement (OTC).",
+    "schedule": "Not controlled.",
+    "compounding": "OTC supplement.",
+    "approvedUses": ["None."],
+    "offLabelNote": "Supplement use; bioavailability limited.",
+    "references": ["DSHEA supplement framework"]
+  },
+  "nmn": {
+    "status": "Regulatory status in flux. FDA stated NMN is excluded from the dietary-supplement definition (was studied as a drug), creating uncertainty; enforcement/marketing status evolving.",
+    "schedule": "Not controlled.",
+    "compounding": "Marketed as a supplement by many vendors despite FDA's position; verify current FDA stance.",
+    "approvedUses": ["None."],
+    "offLabelNote": "All use is supplement/investigational; regulatory status contested.",
+    "references": ["FDA 2022 NMN supplement determination", "DSHEA"]
+  },
+  "pt-141": {
+    "status": "FDA-approved as Vyleesi (bremelanotide) for premenopausal HSDD; compounded forms also used.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Vyleesi commercially available; compounded PT-141 (incl. nasal) used off-label, under peptide-compounding scrutiny.",
+    "approvedUses": ["Hypoactive sexual desire disorder (HSDD) in premenopausal women (Vyleesi)."],
+    "offLabelNote": "Use in men and compounded routes are off-label.",
+    "references": ["Vyleesi prescribing information", "FDA peptide compounding review"]
+  },
+  "oxytocin": {
+    "status": "FDA-approved (Pitocin) as an injectable for obstetric use.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Compounded sublingual/intranasal oxytocin used off-label for wellness; not FDA-approved by those routes.",
+    "approvedUses": ["Labor induction/augmentation; control of postpartum bleeding (IV/IM)."],
+    "offLabelNote": "Intimacy/mood/libido use via sublingual/nasal compounds is off-label.",
+    "references": ["Pitocin prescribing information"]
+  },
+  "tadalafil": {
+    "status": "FDA-approved (Cialis, Adcirca; generics).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial product available; compounded troches/combinations used.",
+    "approvedUses": ["Erectile dysfunction", "BPH", "Pulmonary arterial hypertension (Adcirca)."],
+    "offLabelNote": "Some compounded combinations are off-label.",
+    "references": ["Cialis prescribing information"]
+  },
+  "sildenafil": {
+    "status": "FDA-approved (Viagra, Revatio; generics).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial product available; compounded troches/combinations used.",
+    "approvedUses": ["Erectile dysfunction", "Pulmonary arterial hypertension (Revatio)."],
+    "offLabelNote": "Some compounded combinations are off-label.",
+    "references": ["Viagra prescribing information"]
+  },
+  "thymosin-alpha-1": {
+    "status": "NOT FDA-approved in the US; approved in many countries as Zadaxin.",
+    "schedule": "Not controlled.",
+    "compounding": "Under FDA peptide bulk-substance review; restricted US compounding. Verify current status.",
+    "approvedUses": ["Outside the US: chronic hepatitis B/C, immune adjunct (Zadaxin)."],
+    "offLabelNote": "All US clinical use is investigational/off-label.",
+    "references": ["FDA 503A bulk substances review", "Zadaxin (ex-US) labeling"]
+  },
+  "glutathione": {
+    "status": "NOT FDA-approved as a drug; injectable forms compounded; oral as supplement.",
+    "schedule": "Not controlled.",
+    "compounding": "IV/IM glutathione compounded via 503A/503B. FDA has warned against certain skin-whitening injectable glutathione products.",
+    "approvedUses": ["None (drug)."],
+    "offLabelNote": "Antioxidant/detox/skin use is off-label/supplement; IV skin-whitening claims unapproved.",
+    "references": ["FDA warnings on injectable skin-whitening products", "DSHEA (oral)"]
+  },
+  "low-dose-naltrexone": {
+    "status": "Naltrexone is FDA-approved at 50 mg (alcohol/opioid dependence); LDN (1.5–4.5 mg) is off-label compounded.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Low doses compounded via 503A from approved naltrexone.",
+    "approvedUses": ["Alcohol use disorder; opioid use disorder (at 50 mg)."],
+    "offLabelNote": "Immune/inflammatory/pain use at low dose is entirely off-label.",
+    "references": ["Naltrexone (ReVia/Vivitrol) prescribing information", "LDN clinical literature"]
+  },
+  "finasteride": {
+    "status": "FDA-approved (Propecia 1 mg, Proscar 5 mg; generics).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial tablets available; compounded topical formulations used off-label.",
+    "approvedUses": ["Androgenetic alopecia (1 mg)", "Benign prostatic hyperplasia (5 mg)."],
+    "offLabelNote": "Topical finasteride and use in women are off-label; pregnancy category concerns.",
+    "references": ["Propecia/Proscar prescribing information"]
+  },
+  "oral-minoxidil": {
+    "status": "Minoxidil is FDA-approved as oral antihypertensive (high dose) and topical for hair (OTC); low-dose ORAL for hair is off-label.",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Low-dose oral compounded from approved minoxidil; topical is OTC.",
+    "approvedUses": ["Severe hypertension (oral, high dose)", "Androgenetic alopecia (topical)."],
+    "offLabelNote": "Low-dose oral minoxidil for hair loss is off-label (well-supported in dermatology literature).",
+    "references": ["Minoxidil (oral) prescribing information", "Low-dose oral minoxidil dermatology reviews"]
+  },
+  "ghk-cu": {
+    "status": "NOT an FDA-approved drug; widely used as a topical cosmeceutical.",
+    "schedule": "Not controlled.",
+    "compounding": "Topical cosmetic ingredient; injectable forms compounded off-label and under peptide scrutiny.",
+    "approvedUses": ["None (drug)."],
+    "offLabelNote": "Topical cosmetic use; injectable use is investigational/off-label.",
+    "references": ["Cosmetic ingredient frameworks", "FDA peptide compounding review"]
+  },
+  "tretinoin": {
+    "status": "FDA-approved (Retin-A and generics).",
+    "schedule": "Prescription, non-controlled.",
+    "compounding": "Commercial products available; compounded blends (with niacinamide, hydroquinone, azelaic acid) used.",
+    "approvedUses": ["Acne vulgaris; mitigation of fine wrinkles/photoaging (tretinoin 0.05% emollient)."],
+    "offLabelNote": "Some compounded combination concentrations are off-label.",
+    "references": ["Retin-A / Renova prescribing information"]
+  }
+}

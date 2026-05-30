@@ -1,0 +1,50 @@
+[
+  {
+    "id": "weight-management",
+    "label": "Weight Management",
+    "icon": "⚖️",
+    "meds": ["semaglutide", "tirzepatide", "liraglutide", "naltrexone-bupropion"]
+  },
+  {
+    "id": "peptide-therapy",
+    "label": "Peptide Therapy",
+    "icon": "🧬",
+    "meds": ["bpc-157", "sermorelin", "cjc-1295-ipamorelin", "ipamorelin", "tesamorelin", "thymosin-beta-4"]
+  },
+  {
+    "id": "hormone-optimization",
+    "label": "Hormone Optimization",
+    "icon": "🧪",
+    "meds": ["testosterone-cypionate", "testosterone-cream", "estradiol", "progesterone", "dhea", "anastrozole", "pregnenolone", "hcg"]
+  },
+  {
+    "id": "longevity-metabolic",
+    "label": "Longevity & Metabolic",
+    "icon": "🌱",
+    "meds": ["nad-plus", "metformin", "rapamycin", "berberine", "resveratrol", "nmn"]
+  },
+  {
+    "id": "sexual-health",
+    "label": "Sexual Health",
+    "icon": "❤️",
+    "meds": ["pt-141", "oxytocin", "tadalafil", "sildenafil"]
+  },
+  {
+    "id": "immune-inflammation",
+    "label": "Immune & Inflammation",
+    "icon": "🛡️",
+    "meds": ["thymosin-alpha-1", "glutathione", "low-dose-naltrexone"]
+  },
+  {
+    "id": "hair-restoration",
+    "label": "Hair Restoration",
+    "icon": "💈",
+    "meds": ["finasteride", "oral-minoxidil", "ghk-cu"]
+  },
+  {
+    "id": "dermatology",
+    "label": "Dermatology",
+    "icon": "✨",
+    "meds": ["tretinoin", "ghk-cu", "glutathione"]
+  }
+]

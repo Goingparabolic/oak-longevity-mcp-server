@@ -1,0 +1,143 @@
+{
+  "semaglutide": [
+    { "with": "Insulin", "match": ["insulin"], "severity": "major", "effect": "Additive hypoglycemia.", "management": "Reduce insulin dose at initiation; monitor glucose closely." },
+    { "with": "Sulfonylureas (glipizide, glyburide)", "match": ["sulfonylurea", "glipizide", "glyburide", "glimepiride"], "severity": "major", "effect": "Additive hypoglycemia.", "management": "Reduce sulfonylurea dose; monitor." },
+    { "with": "Oral medications (narrow therapeutic index)", "match": ["levothyroxine", "warfarin", "oral contraceptive"], "severity": "moderate", "effect": "Delayed gastric emptying can alter absorption of oral drugs.", "management": "Monitor effect/levels of sensitive oral agents." }
+  ],
+  "tirzepatide": [
+    { "with": "Insulin", "match": ["insulin"], "severity": "major", "effect": "Additive hypoglycemia.", "management": "Reduce insulin; monitor glucose." },
+    { "with": "Sulfonylureas", "match": ["sulfonylurea", "glipizide", "glyburide", "glimepiride"], "severity": "major", "effect": "Additive hypoglycemia.", "management": "Reduce sulfonylurea dose." },
+    { "with": "Oral contraceptives", "match": ["oral contraceptive", "birth control", "estrogen progestin pill"], "severity": "moderate", "effect": "Reduced contraceptive efficacy via delayed gastric emptying.", "management": "Use barrier method or non-oral contraception for 4 weeks after start and each dose increase." }
+  ],
+  "liraglutide": [
+    { "with": "Insulin", "match": ["insulin"], "severity": "major", "effect": "Additive hypoglycemia.", "management": "Reduce insulin; monitor." },
+    { "with": "Sulfonylureas", "match": ["sulfonylurea", "glipizide", "glyburide"], "severity": "major", "effect": "Additive hypoglycemia.", "management": "Reduce sulfonylurea dose." }
+  ],
+  "naltrexone-bupropion": [
+    { "with": "MAO inhibitors", "match": ["maoi", "mao inhibitor", "phenelzine", "selegiline", "tranylcypromine", "linezolid"], "severity": "contraindicated", "effect": "Hypertensive crisis.", "management": "Do not combine; separate by ≥14 days." },
+    { "with": "Opioids", "match": ["opioid", "oxycodone", "hydrocodone", "morphine", "fentanyl", "tramadol", "codeine"], "severity": "contraindicated", "effect": "Naltrexone blocks opioid analgesia and precipitates withdrawal.", "management": "Contraindicated with opioid use/dependence." },
+    { "with": "Drugs that lower seizure threshold", "match": ["tramadol", "bupropion", "theophylline", "antipsychotic"], "severity": "major", "effect": "Additive seizure risk.", "management": "Avoid or use extreme caution." },
+    { "with": "CYP2D6 substrates (many antidepressants, beta-blockers, antiarrhythmics)", "match": ["metoprolol", "ssri", "fluoxetine", "paroxetine", "venlafaxine", "tricyclic"], "severity": "moderate", "effect": "Bupropion inhibits CYP2D6, raising substrate levels.", "management": "Monitor / reduce substrate dose." },
+    { "with": "Dopaminergic agents (levodopa, amantadine)", "match": ["levodopa", "amantadine"], "severity": "moderate", "effect": "Increased neuropsychiatric side effects.", "management": "Use caution." }
+  ],
+  "bpc-157": [],
+  "sermorelin": [
+    { "with": "Glucocorticoids", "match": ["prednisone", "corticosteroid", "glucocorticoid", "dexamethasone"], "severity": "moderate", "effect": "Suppress GH response.", "management": "Effect may be blunted; reassess." },
+    { "with": "Thyroid hormone (if hypothyroid/untreated)", "match": ["levothyroxine"], "severity": "minor", "effect": "Untreated hypothyroidism blunts GH response.", "management": "Optimize thyroid first." }
+  ],
+  "cjc-1295-ipamorelin": [
+    { "with": "Glucocorticoids", "match": ["prednisone", "corticosteroid", "glucocorticoid"], "severity": "moderate", "effect": "Blunt GH secretion.", "management": "Reassess response." },
+    { "with": "Insulin / glucose-lowering agents", "match": ["insulin", "metformin", "sulfonylurea"], "severity": "minor", "effect": "GH can raise glucose, opposing glucose-lowering.", "management": "Monitor fasting glucose." }
+  ],
+  "ipamorelin": [
+    { "with": "Glucocorticoids", "match": ["prednisone", "corticosteroid"], "severity": "moderate", "effect": "Blunt GH secretion.", "management": "Reassess." }
+  ],
+  "tesamorelin": [
+    { "with": "Insulin / glucose-lowering agents", "match": ["insulin", "sulfonylurea"], "severity": "moderate", "effect": "May raise glucose, reducing efficacy of antidiabetics.", "management": "Monitor glucose; adjust." },
+    { "with": "CYP3A4 substrates (e.g. some statins)", "match": ["simvastatin", "statin"], "severity": "minor", "effect": "GH can modestly alter CYP3A4 metabolism.", "management": "Monitor." }
+  ],
+  "thymosin-beta-4": [],
+  "testosterone-cypionate": [
+    { "with": "Warfarin / anticoagulants", "match": ["warfarin", "anticoagulant", "blood thinner"], "severity": "major", "effect": "Testosterone potentiates warfarin — raises INR/bleeding risk.", "management": "Monitor INR closely; adjust warfarin." },
+    { "with": "Insulin / glucose-lowering agents", "match": ["insulin", "metformin", "sulfonylurea"], "severity": "moderate", "effect": "Improved insulin sensitivity may lower glucose needs.", "management": "Monitor glucose; may reduce antidiabetic dose." },
+    { "with": "Corticosteroids", "match": ["prednisone", "corticosteroid"], "severity": "minor", "effect": "Additive fluid retention.", "management": "Monitor edema/BP." }
+  ],
+  "testosterone-cream": [
+    { "with": "Warfarin / anticoagulants", "match": ["warfarin", "anticoagulant"], "severity": "major", "effect": "Potentiates warfarin.", "management": "Monitor INR." },
+    { "with": "Insulin / glucose-lowering agents", "match": ["insulin", "metformin", "sulfonylurea"], "severity": "moderate", "effect": "May lower glucose needs.", "management": "Monitor glucose." }
+  ],
+  "estradiol": [
+    { "with": "Thyroid hormone (levothyroxine)", "match": ["levothyroxine", "thyroid hormone"], "severity": "moderate", "effect": "Estrogen raises thyroid-binding globulin, increasing levothyroxine requirement.", "management": "Recheck TSH; may need dose increase." },
+    { "with": "CYP3A4 inducers (rifampin, some anticonvulsants)", "match": ["rifampin", "carbamazepine", "phenytoin"], "severity": "moderate", "effect": "Reduced estradiol levels.", "management": "Monitor symptom control." },
+    { "with": "Thyroid/anticoagulant binding effects", "match": ["warfarin"], "severity": "moderate", "effect": "Can alter clotting factor balance.", "management": "Monitor INR." }
+  ],
+  "progesterone": [
+    { "with": "CYP3A4 inhibitors (ketoconazole)", "match": ["ketoconazole", "itraconazole"], "severity": "minor", "effect": "Raised progesterone levels.", "management": "Monitor for sedation." },
+    { "with": "Sedatives / CNS depressants", "match": ["benzodiazepine", "alcohol", "sedative", "zolpidem"], "severity": "moderate", "effect": "Additive sedation (allopregnanolone).", "management": "Caution; bedtime dosing." }
+  ],
+  "dhea": [
+    { "with": "Aromatase-affecting agents / hormone therapy", "match": ["anastrozole", "estradiol", "testosterone"], "severity": "moderate", "effect": "Additive sex-steroid load.", "management": "Monitor estradiol/testosterone." },
+    { "with": "Insulin", "match": ["insulin"], "severity": "minor", "effect": "May affect insulin sensitivity.", "management": "Monitor glucose." }
+  ],
+  "anastrozole": [
+    { "with": "Estrogen-containing therapy", "match": ["estradiol", "estrogen", "oral contraceptive"], "severity": "major", "effect": "Estrogen directly opposes aromatase inhibition — negates effect.", "management": "Do not co-administer for the same goal." },
+    { "with": "Tamoxifen", "match": ["tamoxifen"], "severity": "moderate", "effect": "Lowers anastrozole levels.", "management": "Avoid combination." }
+  ],
+  "pregnenolone": [
+    { "with": "Hormone therapies", "match": ["estradiol", "testosterone", "dhea", "progesterone"], "severity": "minor", "effect": "Additive downstream hormone load.", "management": "Monitor hormones." }
+  ],
+  "hcg": [
+    { "with": "Aromatase inhibitors", "match": ["anastrozole"], "severity": "minor", "effect": "hCG raises estradiol; AI may be used to offset.", "management": "Monitor estradiol." }
+  ],
+  "nad-plus": [],
+  "metformin": [
+    { "with": "Iodinated contrast media", "match": ["iodinated contrast", "ct contrast", "contrast dye"], "severity": "major", "effect": "Risk of contrast-induced AKI → lactic acidosis.", "management": "Hold metformin at/before contrast; resume after 48h with normal renal function." },
+    { "with": "Carbonic anhydrase inhibitors (topiramate, acetazolamide)", "match": ["topiramate", "acetazolamide"], "severity": "moderate", "effect": "Increased lactic acidosis risk.", "management": "Monitor; caution." },
+    { "with": "Alcohol", "match": ["alcohol"], "severity": "moderate", "effect": "Potentiates lactic acidosis and hypoglycemia.", "management": "Limit alcohol." },
+    { "with": "Cationic drugs (cimetidine, dolutegravir, ranolazine)", "match": ["cimetidine", "dolutegravir", "ranolazine"], "severity": "moderate", "effect": "Reduced metformin clearance, higher levels.", "management": "Monitor / consider dose adjustment." },
+    { "with": "Insulin / sulfonylureas", "match": ["insulin", "sulfonylurea", "glipizide"], "severity": "moderate", "effect": "Additive hypoglycemia.", "management": "Monitor glucose." }
+  ],
+  "rapamycin": [
+    { "with": "Strong CYP3A4/P-gp inhibitors (ketoconazole, clarithromycin, grapefruit)", "match": ["ketoconazole", "itraconazole", "clarithromycin", "grapefruit", "ritonavir", "diltiazem", "verapamil"], "severity": "major", "effect": "Markedly raises sirolimus levels/toxicity.", "management": "Avoid or substantially reduce dose; separate from grapefruit." },
+    { "with": "Strong CYP3A4 inducers (rifampin, anticonvulsants, St John's wort)", "match": ["rifampin", "carbamazepine", "phenytoin", "st john's wort"], "severity": "major", "effect": "Reduces sirolimus efficacy.", "management": "Avoid; monitor levels." },
+    { "with": "Other immunosuppressants", "match": ["cyclosporine", "tacrolimus", "prednisone", "methotrexate"], "severity": "major", "effect": "Additive immunosuppression / altered levels.", "management": "Coordinate carefully; avoid unintended stacking." },
+    { "with": "Live vaccines", "match": ["live vaccine", "mmr", "varicella", "yellow fever"], "severity": "major", "effect": "Reduced response / infection risk.", "management": "Time vaccines away from dosing; avoid live vaccines during use." },
+    { "with": "Statins (simvastatin, lovastatin)", "match": ["simvastatin", "lovastatin", "statin"], "severity": "moderate", "effect": "Increased myopathy risk; additive lipid effects.", "management": "Monitor CK/lipids." }
+  ],
+  "berberine": [
+    { "with": "CYP3A4 / P-gp substrates (cyclosporine, statins, many drugs)", "match": ["cyclosporine", "simvastatin", "statin", "tacrolimus"], "severity": "major", "effect": "Berberine inhibits CYP3A4/P-gp, raising substrate levels.", "management": "Avoid or monitor substrate levels." },
+    { "with": "Glucose-lowering agents", "match": ["insulin", "metformin", "sulfonylurea"], "severity": "moderate", "effect": "Additive hypoglycemia.", "management": "Monitor glucose." },
+    { "with": "Anticoagulants", "match": ["warfarin", "anticoagulant"], "severity": "moderate", "effect": "May alter warfarin metabolism.", "management": "Monitor INR." }
+  ],
+  "resveratrol": [
+    { "with": "Anticoagulants / antiplatelets", "match": ["warfarin", "aspirin", "clopidogrel", "anticoagulant"], "severity": "moderate", "effect": "Additive bleeding risk (mild antiplatelet effect).", "management": "Monitor; caution." },
+    { "with": "CYP3A4 substrates", "match": ["statin", "calcium channel blocker"], "severity": "minor", "effect": "High-dose resveratrol may inhibit CYP3A4.", "management": "Monitor." }
+  ],
+  "nmn": [],
+  "pt-141": [
+    { "with": "Antihypertensives", "match": ["antihypertensive", "amlodipine", "lisinopril", "metoprolol", "blood pressure medication"], "severity": "moderate", "effect": "Transient BP rise from PT-141 may interact with BP control.", "management": "Monitor BP; avoid in uncontrolled HTN." },
+    { "with": "Naltrexone (oral)", "match": ["naltrexone"], "severity": "minor", "effect": "Bremelanotide reduces naltrexone absorption.", "management": "Separate dosing." }
+  ],
+  "oxytocin": [
+    { "with": "Vasopressors", "match": ["vasopressor", "ephedrine"], "severity": "minor", "effect": "Potential additive cardiovascular effects at high doses.", "management": "Caution." }
+  ],
+  "tadalafil": [
+    { "with": "Nitrates", "match": ["nitrate", "nitroglycerin", "isosorbide"], "severity": "contraindicated", "effect": "Profound hypotension.", "management": "Absolute contraindication." },
+    { "with": "Riociguat / sGC stimulators", "match": ["riociguat"], "severity": "contraindicated", "effect": "Severe hypotension.", "management": "Do not combine." },
+    { "with": "Alpha-blockers", "match": ["alpha-blocker", "tamsulosin", "doxazosin", "terazosin"], "severity": "major", "effect": "Additive hypotension.", "management": "Stabilize alpha-blocker dose first; start PDE5 low." },
+    { "with": "Strong CYP3A4 inhibitors", "match": ["ketoconazole", "itraconazole", "ritonavir", "clarithromycin"], "severity": "major", "effect": "Raised tadalafil levels.", "management": "Reduce dose; cap exposure." },
+    { "with": "Other PDE5 inhibitors", "match": ["sildenafil", "vardenafil"], "severity": "major", "effect": "Additive hypotension — do not stack.", "management": "Use only one PDE5 inhibitor." }
+  ],
+  "sildenafil": [
+    { "with": "Nitrates", "match": ["nitrate", "nitroglycerin", "isosorbide"], "severity": "contraindicated", "effect": "Profound hypotension.", "management": "Absolute contraindication." },
+    { "with": "Riociguat", "match": ["riociguat"], "severity": "contraindicated", "effect": "Severe hypotension.", "management": "Do not combine." },
+    { "with": "Alpha-blockers", "match": ["alpha-blocker", "tamsulosin", "doxazosin"], "severity": "major", "effect": "Additive hypotension.", "management": "Start 25 mg; stabilize alpha-blocker first." },
+    { "with": "Strong CYP3A4 inhibitors", "match": ["ketoconazole", "ritonavir", "clarithromycin"], "severity": "major", "effect": "Raised sildenafil levels.", "management": "Start 25 mg." },
+    { "with": "Other PDE5 inhibitors", "match": ["tadalafil", "vardenafil"], "severity": "major", "effect": "Additive hypotension.", "management": "Use only one PDE5 inhibitor." }
+  ],
+  "thymosin-alpha-1": [
+    { "with": "Immunosuppressants", "match": ["cyclosporine", "tacrolimus", "prednisone", "immunosuppressant"], "severity": "major", "effect": "Opposes immunosuppression — rejection risk in transplant.", "management": "Avoid in transplant patients." }
+  ],
+  "glutathione": [
+    { "with": "Chemotherapy agents", "match": ["chemotherapy", "cisplatin"], "severity": "moderate", "effect": "Antioxidant may alter efficacy of some chemo.", "management": "Coordinate with oncology." }
+  ],
+  "low-dose-naltrexone": [
+    { "with": "Opioids (any)", "match": ["opioid", "oxycodone", "hydrocodone", "morphine", "fentanyl", "tramadol", "codeine", "buprenorphine"], "severity": "contraindicated", "effect": "Blocks analgesia and precipitates withdrawal.", "management": "Must be opioid-free; stop opioids before starting." },
+    { "with": "Opioid-containing antidiarrheals/antitussives", "match": ["loperamide", "dextromethorphan"], "severity": "moderate", "effect": "Reduced effect.", "management": "Use alternatives." }
+  ],
+  "finasteride": [
+    { "with": "PSA testing", "match": ["psa"], "severity": "moderate", "effect": "Lowers PSA ~50%.", "management": "Double measured PSA when screening for prostate cancer." }
+  ],
+  "oral-minoxidil": [
+    { "with": "Other vasodilators / antihypertensives", "match": ["antihypertensive", "amlodipine", "hydralazine", "nitrate"], "severity": "moderate", "effect": "Additive hypotension/reflex tachycardia.", "management": "Monitor BP/HR." },
+    { "with": "NSAIDs", "match": ["nsaid", "ibuprofen", "naproxen"], "severity": "minor", "effect": "May increase fluid retention.", "management": "Monitor edema." }
+  ],
+  "ghk-cu": [
+    { "with": "Topical vitamin C (high dose)", "match": ["vitamin c", "ascorbic acid"], "severity": "minor", "effect": "May reduce GHK-Cu stability when layered.", "management": "Apply at different times of day." }
+  ],
+  "tretinoin": [
+    { "with": "Topical benzoyl peroxide", "match": ["benzoyl peroxide"], "severity": "minor", "effect": "Can oxidize/inactivate tretinoin if applied together.", "management": "Use at different times (AM/PM)." },
+    { "with": "Photosensitizing agents", "match": ["doxycycline", "photosensitizer"], "severity": "minor", "effect": "Additive photosensitivity.", "management": "Emphasize sun protection." },
+    { "with": "Other topical exfoliants (AHA/BHA)", "match": ["glycolic acid", "salicylic acid", "retinol"], "severity": "minor", "effect": "Additive irritation.", "management": "Stagger use." }
+  ]
+}

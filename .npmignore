@@ -1,0 +1,9 @@
+# Publish only the compiled output + docs. Source, scripts, and raw data stay out.
+src/
+scripts/
+tsconfig.json
+*.tsbuildinfo
+.DS_Store
+.env
+.env.local
+examples/

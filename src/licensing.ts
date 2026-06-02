@@ -28,6 +28,10 @@ export interface Entitlement {
   reason: string;
   /** Optional expiry, if the verifier reports one. */
   expiresAt?: string;
+  /** Stripe customer id for the entitlement holder (used for per-call metering). */
+  stripeCustomerId?: string;
+  /** True when this customer is on the pay-per-call (metered) plan. */
+  metered?: boolean;
 }
 
 /** Recognized format for locally-issued Oak Longevity keys: OAK-XXXX-XXXX-XXXX. */
@@ -79,14 +83,21 @@ class EnvLicenseProvider implements LicenseProvider {
       .map((k) => k.trim())
       .filter(Boolean);
 
-    if (allowlist.includes(key) || LOCAL_KEY_RE.test(key)) {
-      return { tier: 'premium', keyPresent: true, reason: 'Valid premium license key.' };
+    // SECURITY: premium is granted ONLY via an explicit allowlist (manual
+    // provisioning) or remote verification (see RemoteLicenseProvider). A key
+    // that merely matches the format is NOT trusted — otherwise anyone could
+    // forge a valid-looking key and unlock premium for free.
+    if (allowlist.includes(key)) {
+      return { tier: 'premium', keyPresent: true, reason: 'Key in LONGEVITY_VALID_KEYS allowlist.' };
     }
 
+    const looksValid = LOCAL_KEY_RE.test(key);
     return {
       tier: 'free',
       keyPresent: true,
-      reason: 'License key present but not recognized as valid. Running on FREE tier.',
+      reason: looksValid
+        ? 'Key has a valid format but cannot be verified locally. Set LONGEVITY_LICENSE_VERIFY_URL to enable premium.'
+        : 'License key present but not recognized. Running on FREE tier.',
     };
   }
 }
@@ -119,13 +130,21 @@ class RemoteLicenseProvider implements LicenseProvider {
       if (!res.ok) {
         return { tier: 'free', keyPresent: true, reason: `Remote verification failed (HTTP ${res.status}). FREE tier.` };
       }
-      const body = (await res.json()) as { valid?: boolean; tier?: Tier; expiresAt?: string };
+      const body = (await res.json()) as {
+        valid?: boolean;
+        tier?: Tier;
+        expiresAt?: string;
+        stripeCustomerId?: string;
+        metered?: boolean;
+      };
       if (body.valid) {
         return {
           tier: body.tier === 'free' ? 'free' : 'premium',
           keyPresent: true,
           reason: 'Verified by remote license service.',
           expiresAt: body.expiresAt,
+          stripeCustomerId: body.stripeCustomerId,
+          metered: body.metered,
         };
       }
       return { tier: 'free', keyPresent: true, reason: 'Remote service reports key invalid. FREE tier.' };
@@ -150,6 +169,12 @@ export function getEntitlement(provider: LicenseProvider = createLicenseProvider
   return provider.resolve();
 }
 
+/**
+ * Stripe payment link for Premium upgrades (LIVE).
+ * Pain Prep account acct_1R8lNEAOGBky7q8c · product prod_Uc8cuq5qMocAvd ($29/mo).
+ */
+export const STRIPE_PAYMENT_URL = 'https://buy.stripe.com/7sY5kC83J1CUeFC4In0Ny01';
+
 /** Message shown when a premium tool is invoked without entitlement. */
 export function upgradeMessage(toolName: string): string {
   return [
@@ -157,12 +182,14 @@ export function upgradeMessage(toolName: string): string {
     '',
     'The FREE tier includes: get_medication_list, get_medication_details, and',
     'get_fda_status (regulatory reference).',
-    'PREMIUM unlocks the clinical decision-support tools: contraindication',
-    'screening, drug-interaction checks, required baseline labs, ongoing',
-    'monitoring plans, evidence-based dosing protocols, and patient-intake',
+    'PREMIUM ($29/month) unlocks the clinical decision-support tools:',
+    'contraindication screening, drug-interaction checks, required baseline labs,',
+    'ongoing monitoring plans, evidence-based dosing protocols, and patient-intake',
     'pathway suggestions.',
     '',
-    'To activate, set the LONGEVITY_LICENSE_KEY environment variable in your MCP',
-    'client configuration. Get a key at https://www.oaklongevity.com.',
+    `Subscribe at: ${STRIPE_PAYMENT_URL}`,
+    '',
+    'After subscribing, set the LONGEVITY_LICENSE_KEY environment variable in your',
+    'MCP client configuration.',
   ].join('\n');
 }

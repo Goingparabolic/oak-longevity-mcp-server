@@ -88,8 +88,9 @@ async function main() {
 
   await free.server.close();
 
-  // ── PREMIUM tier (valid local key) ──
+  // ── PREMIUM tier (key provisioned via the allowlist) ──
   console.log('\nPREMIUM tier:');
+  process.env.LONGEVITY_VALID_KEYS = 'OAK-TEST-TEST-TEST';
   const prem = await connect(createLicenseProvider({ key: 'OAK-TEST-TEST-TEST' }));
 
   const dosing = await prem.client.callTool({ name: 'get_dosing_protocol', arguments: { medication: 'tirzepatide', indication: 'weight management' } });

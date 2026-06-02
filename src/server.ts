@@ -13,6 +13,7 @@ import {
   createLicenseProvider,
   type LicenseProvider,
 } from './licensing.js';
+import { recordUsage } from './meter.js';
 
 export const SERVER_NAME = 'oak-longevity';
 export const SERVER_VERSION = '0.1.0';
@@ -53,6 +54,17 @@ function registerTool(server: McpServer, tool: ToolDef, provider: LicenseProvide
 
       try {
         const result = await tool.run(args || {}, { tier: entitlement.tier });
+        // Track B (pay-per-call): meter successful premium calls. Inert unless
+        // metering is configured AND the caller is on the metered plan.
+        if (tool.tier === 'premium' && !result.isError) {
+          recordUsage({
+            stripeCustomerId: entitlement.stripeCustomerId,
+            metered: entitlement.metered,
+            server: SERVER_NAME,
+            tool: tool.name,
+            tier: entitlement.tier,
+          });
+        }
         return toCallResult(result);
       } catch (err) {
         const msg = err instanceof Error ? err.message : String(err);

@@ -155,9 +155,19 @@ class RemoteLicenseProvider implements LicenseProvider {
   }
 }
 
+/** Hosted license service used when no explicit URL or local override is set. */
+const DEFAULT_VERIFY_URL = 'https://mcp-license-service.vercel.app/api/verify';
+
 export function createLicenseProvider(opts: LicenseOptions = {}): LicenseProvider {
-  const url = (process.env.LONGEVITY_LICENSE_VERIFY_URL || '').trim();
-  return url ? new RemoteLicenseProvider(url, opts) : new EnvLicenseProvider(opts);
+  // Local override path (self-hosted / enterprise / testing): an explicit tier
+  // or a key allowlist keeps everything local with no network calls.
+  if ((process.env.LONGEVITY_TIER || '').trim() || (process.env.LONGEVITY_VALID_KEYS || '').trim()) {
+    return new EnvLicenseProvider(opts);
+  }
+  // Otherwise verify the key against the hosted license service by default
+  // (override with LONGEVITY_LICENSE_VERIFY_URL). No key => FREE, with no network call.
+  const url = (process.env.LONGEVITY_LICENSE_VERIFY_URL || DEFAULT_VERIFY_URL).trim();
+  return new RemoteLicenseProvider(url, opts);
 }
 
 /**
